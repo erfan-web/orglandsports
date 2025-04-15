@@ -1,0 +1,64 @@
+.searchNav {
+  padding: 4px 0px 3px;
+
+  .row {
+    flex-grow: 1;
+    align-items: center;
+  }
+  .logoImg {
+    width: 100%;
+    max-width: 65px;
+    min-width: 45px;
+  }
+  .searchContainer {
+    width: 100%;
+    max-width: 850px;
+    margin-top: 10px;
+  }
+  .MegaSearch {
+    border-color: rgba(99, 4, 96, 0.31);
+    border-width: 2px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .MegaSearch:focus {
+    border-color: rgba(99, 4, 96, 0.31);
+  }
+  .Account-expand-lg {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    a {
+      font-weight: 600;
+      font-size: 16px;
+      color: #5d5d5d;
+      &:hover {
+        color: #5d5d5d;
+      }
+    }
+    .icon {
+      margin-right: 10px;
+      color: $primary;
+    }
+  }
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    a {
+      font-size: 14px;
+      color: $primary;
+    }
+  }
+  @media screen and (max-width: 568px) {
+    .profile {
+      a {
+        font-size: 11px;
+      }
+    }
+    .btnShop {
+      @include btn-shop-style(12px, 20px, 50px);
+    }
+  }
+}
