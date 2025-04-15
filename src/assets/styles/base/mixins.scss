@@ -1,0 +1,14 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin btn-shop-style($font-size, $icon-size, $icon-width) {
+    font-size: $font-size;
+  
+    .icon {
+      width: $icon-width;
+      height: 38px;
+      font-size: $icon-size;
+    }
+  }
