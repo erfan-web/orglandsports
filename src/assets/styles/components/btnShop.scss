@@ -1,0 +1,20 @@
+.btnShop {
+  all: unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: $primary;
+  color: #fff;
+  border-radius: 3px 0px 0px 3px;
+
+  .shopText {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .icon {
+    @include flex-center;
+    height: 38px;
+    background-color: #763b74;
+  }
+  @include btn-shop-style(14px, 22px, 50px);
+}

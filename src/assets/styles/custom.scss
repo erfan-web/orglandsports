@@ -8,6 +8,7 @@
 @import "bootstrap/scss/variables-dark";
 @import "bootstrap/scss/maps";
 
+@import "./base/mixins.scss";
 @import "./base/reset.scss";
 
 @import "bootstrap/scss/mixins.scss";
@@ -17,6 +18,7 @@
 @import "./overrides/bootstrap.scss";
 @import "./overrides/components.scss";
 
+@import "./components/btnShop.scss";
 
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/type";
