@@ -1,0 +1,47 @@
+.blogNav {
+  position: relative;
+  background-color: #fff;
+  border-bottom: 2px solid $primary;
+
+  .navbar-brand {
+    font-size: 12px;
+    color: #630460;
+    &:hover,
+    &:focus {
+      color: $primary;
+    }
+  }
+  .navbar-nav {
+    margin-right: 40px;
+  }
+  .nav-link {
+    padding: 15px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+    &:hover {
+      color: #ec008c;
+    }
+  }
+  .nav-link.active {
+    color: #ec008c;
+  }
+  @media screen and (min-width: 350px) {
+    .navbar-brand {
+      font-size: 13px;
+    }
+  }
+  @media screen and (min-width: 568px) {
+    .navbar-brand {
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    padding: 3px 0px 8px;
+  }
+  @media screen and (min-width: 1400px) {
+    .navbar-nav {
+      margin-right: 85px;
+    }
+  }
+}
