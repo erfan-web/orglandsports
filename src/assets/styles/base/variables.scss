@@ -1,0 +1,40 @@
+// رنگ‌ها
+$purple: #630460;
+$pink: #ec008c;
+$orange: #ff9800;
+$green: #4caf50;
+$whiteSmoke: #f5f5f5;
+
+$gray-300: #333;
+$gray-500: #5d5d5d;
+$gray-600: #666;
+$gray-900: #999;
+
+$hover-special: #f5f2ed;
+
+$primary: $purple;
+$secondary: $pink;
+$accent: $orange;
+
+$text-green: $green;
+$text-primary: $gray-300;
+$text-gray-500: $gray-500;
+$text-gray-600: $gray-600;
+$text-gray-900: $gray-900;
+
+$body-bg: $whiteSmoke;
+$body-color: $text-primary;
+// Links
+$link-color: $text-primary;
+$link-decoration: none;
+$link-hover-color: $text-primary;
+// Paragraphs
+$paragraph-margin-bottom: 0px !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+  xxl: 1200px,
+);

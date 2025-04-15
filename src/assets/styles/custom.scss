@@ -1,0 +1,22 @@
+@import "bootstrap/scss/functions";
+
+// Required
+@import "./base/fonts.scss";
+@import "./base/variables";
+
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+
+@import "./base/reset.scss";
+
+@import "bootstrap/scss/mixins.scss";
+@import "bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "./overrides/bootstrap.scss";
+@import "./overrides/components.scss";
+
+
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";

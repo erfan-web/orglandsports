@@ -1,0 +1,23 @@
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid {
+  width: 96%;
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+[class^="col"],
+[class*=" col"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
