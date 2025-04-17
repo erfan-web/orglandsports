@@ -4,82 +4,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaAngleDown, FaAngleLeft } from "react-icons/fa6";
-import { TbCategoryFilled } from "react-icons/tb";
 import { Dropdown } from "react-bootstrap";
-import { memo, useEffect, useState } from "react";
+import { memo, useEffect, useMemo, useState } from "react";
 import BtnShop from "../../BtnShop/BtnShop";
-
-function SortBox() {
-  return (
-    <div className="sortContainer d-none d-xl-block">
-      <div className="sortHeader">
-        <div>
-          <TbCategoryFilled size={"20px"} />
-          <span>دسته های محصولی</span>
-        </div>
-      </div>
-      <div className="sortBody">
-        <ul className="sort-list">
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-1.png"}
-              alt=""
-            />
-            <Link to={`/category/1/کفش-ورزشی`}>
-              <span>کفش ورزشی</span>
-            </Link>
-          </li>
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-2.png"}
-              alt=""
-            />
-            <Link to={`/category/5/پوشاک-ورزشی`}>
-              <span>پوشاک ورزشی</span>
-            </Link>
-          </li>
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-3.png"}
-              alt=""
-            />
-            <Link to={`/category/8/لوازم-ورزشی`}>
-              <span>لوازم ورزشی</span>
-            </Link>
-          </li>
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-4.png"}
-              alt=""
-            />
-            <span>کیف و کوله</span>
-          </li>
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-5.png"}
-              alt=""
-            />
-            <span>توپ ورزشی</span>
-          </li>
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-6.png"}
-              alt=""
-            />
-            <span>ساک ورزشی</span>
-          </li>
-          <li className="sort-item">
-            <img
-              src={"https://www.orglandsports.com/images/progroup-7.png"}
-              alt=""
-            />
-            <span>لوازم کوه نوردی</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-}
+import SortBox from "./SortBox/SortBox";
 
 function BlogNav() {
   const expand = "lg";
@@ -94,6 +22,11 @@ function BlogNav() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const sortBox = useMemo(() => {
+    return location.pathname === "/" && isExpand ? <SortBox /> : null;
+  }, [location.pathname, isExpand]);
+
   return (
     <>
       <Navbar key={expand} expand={expand} className="blogNav">
@@ -209,8 +142,8 @@ function BlogNav() {
                 </NavLink>
               </Nav>
             </Offcanvas.Body>
-            {location.pathname === "/" && <SortBox />}
           </Navbar.Offcanvas>
+          {sortBox}
         </Container>
       </Navbar>
     </>
