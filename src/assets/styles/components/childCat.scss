@@ -13,13 +13,114 @@
 }
 .headerInfo p {
   text-align: justify;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 25px;
 }
 .productsList {
   background: url("https://www.orglandsports.com/img/pattern5.png") #fff;
   background-repeat: repeat;
 }
+.brands {
+  padding: 15px 20px 5px;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.brands h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  position: relative;
+  padding-right: 10px;
+}
+.brands h5::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 11px;
+  background-color: #ec008c;
+  right: 0;
+  bottom: 4px;
+}
+.brands ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.brands ul li {
+  padding: 5px 0px;
+  font-size: 14px;
+  color: #777;
+  user-select: none;
+  cursor: pointer;
+}
+.form-check-label {
+  padding-top: 2px;
+  vertical-align: middle;
+}
+.filter-box {
+  .filter-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    overflow: hidden;
+    margin: 5px 0px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-radius: 3px;
+    .accordion-header {
+      border-bottom: 1px solid #dee2e6;
+    }
+    &:first-of-type {
+      border-top: 1px solid #dee2e6;
+    }
+    .accordion-button {
+      background-color: #fff;
+      padding: 10px;
+      font-size: 14px;
+      &::after {
+        flex-shrink: 0;
+        width: 12px;
+        height: 12px;
+        margin-right: auto;
+        content: "";
+        background-repeat: no-repeat;
+        background-size: 12px;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.productsList {
+  .sortDropdown {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    span b {
+      color: #333;
+      font-weight: 500;
+    }
+    .form-select {
+      margin-right: 10px;
+      width: 180px;
+      color: #999;
+      border-radius: 0;
+      border: 1px solid #dee2e6;
+      background-color: #fff;
+      &:focus {
+        border: 1px solid #dee2e6;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .productsList .container-fluid,
   .headerInfo .container-fluid {
@@ -36,5 +137,24 @@
 
   .row-product .col-product:nth-child(even) {
     padding-right: 5px;
+  }
+  .productsList {
+    .sortDropdown p b {
+      font-size: 13px;
+    }
+    .sortDropdown {
+      padding: 10px 10px;
+      margin: 15px;
+      justify-content: space-between;
+      .form-select {
+        margin-right: 10px;
+        width: 130px;
+        font-size: 10px;
+        padding-left: 0;
+        color: #999;
+        background-position: left 1px center;
+        background-size: 14px 10px;
+      }
+    }
   }
 }
