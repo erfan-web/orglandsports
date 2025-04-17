@@ -14,6 +14,7 @@ const categoriesSlice = createSlice({
     categories: [],
     currentCategories: [],
     parentCategories: [],
+    subCategories: [],
     status: false,
     categoriesLoaded: false,
   },
@@ -26,6 +27,11 @@ const categoriesSlice = createSlice({
     setCurrentCategory: (state, action) => {
       state.currentCategories = state.categories.find(
         (cat) => cat.id == action.payload
+      );
+    },
+    setSubCategories: (state, action) => {
+      state.subCategories = state.categories.filter(
+        (cat) => cat.parent_id == action.payload
       );
     },
   },
@@ -41,6 +47,6 @@ const categoriesSlice = createSlice({
     });
   },
 });
-export const { setParentCategories, setCurrentCategory } =
+export const { setParentCategories, setSubCategories, setCurrentCategory } =
   categoriesSlice.actions;
 export default categoriesSlice.reducer;

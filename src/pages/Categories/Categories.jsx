@@ -6,6 +6,7 @@ import {
   setCurrentCategory,
   setParentCategories,
 } from "../../features/slices/categories";
+import ParentCat from "./ParentCat/ParentCat";
 function Categories() {
   const { categoryId } = useParams();
   const dispatch = useDispatch();
@@ -33,7 +34,7 @@ function Categories() {
   return (
     <>
       {parentCategories.some((cat) => cat.id == categoryId) ? (
-        <h1>Parent</h1>
+        <ParentCat/>
       ) : (
         <h1>child</h1>
       )}
