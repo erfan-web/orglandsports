@@ -8,11 +8,11 @@ import { Dropdown } from "react-bootstrap";
 import { memo, useEffect, useMemo, useState } from "react";
 import BtnShop from "../../BtnShop/BtnShop";
 import SortBox from "./SortBox/SortBox";
+import DropDownNav from "./DropDownNav/DropDownNav";
 
 function BlogNav() {
   const expand = "lg";
   const location = useLocation();
-  const [show, setShow] = useState(false);
   const [isExpand, setIsExpand] = useState(window.innerWidth >= 992);
   useEffect(() => {
     const handleResize = () => {
@@ -51,77 +51,7 @@ function BlogNav() {
                 <NavLink to="/" className="nav-link">
                   صفحه اصلی
                 </NavLink>
-                <Dropdown
-                  className="dropDownNav"
-                  {...(isExpand
-                    ? {
-                        onMouseEnter: () => setShow(true),
-                        onMouseLeave: () => setShow(false),
-                        show: show,
-                      }
-                    : {
-                        onClick: () => setShow(!show),
-                        show: true,
-                      })}
-                >
-                  <Dropdown.Toggle id="dropdown-basic">
-                    <span className="">محصولات</span>
-                    {isExpand ? (
-                      <FaAngleDown size={`10px`} />
-                    ) : (
-                      <FaAngleLeft
-                        size={`14px`}
-                        style={
-                          show && {
-                            rotate: "-90deg",
-                          }
-                        }
-                      />
-                    )}
-                  </Dropdown.Toggle>
-
-                  <Dropdown.Menu
-                    {...(isExpand && {
-                      onMouseEnter: () => setShow(true),
-                      onMouseLeave: () => setShow(false),
-                    })}
-                    className={`${show ? `expand` : ``}`}
-                  >
-                    <div className="my-2 m-lg-0">
-                      <Link
-                        className="dropdown-item"
-                        to={`/category/1/کفش-ورزشی`}
-                      >
-                        کفش ورزشی
-                      </Link>
-                      <Dropdown.Divider />
-                      <Link
-                        className="dropdown-item"
-                        to={`/category/5/پوشاک-ورزشی`}
-                      >
-                        پوشاک ورزشی
-                      </Link>
-                      <Dropdown.Divider />
-                      <Link
-                        className="dropdown-item"
-                        to={`/category/8/لوازم-ورزشی`}
-                      >
-                        تجهیزات ورزشی
-                      </Link>
-                      <Dropdown.Divider />
-                      <Link
-                        className="dropdown-item"
-                        to={`/category/9/کیف-و-کوله`}
-                      >
-                        کیف و کوله
-                      </Link>
-                      <Dropdown.Divider />
-                      <Link className="dropdown-item" to={`/category/10/توپ`}>
-                        توپ
-                      </Link>
-                    </div>
-                  </Dropdown.Menu>
-                </Dropdown>
+                <DropDownNav isExpand={isExpand} />
                 <NavLink to="/AllBrand" className="nav-link">
                   برند ها
                 </NavLink>
