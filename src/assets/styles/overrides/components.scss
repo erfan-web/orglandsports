@@ -12,8 +12,9 @@
     box-sizing: border-box;
   }
 }
-.offcanvas.offcanvas-end {
+.offCanvasNav.offcanvas.offcanvas-end {
   width: 300px;
+  border-right: 0;
   .offcanvas-header {
     padding: 0px;
   }

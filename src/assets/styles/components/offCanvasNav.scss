@@ -1,8 +1,9 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+  .offcanvas-backdrop.show {
+    opacity: 0;
+  }
   .offCanvasNav {
-    width: 300px;
     box-shadow: 8px 3px 21px 0px rgba(0, 0, 0, 0.22);
-    border: 0;
     .offcanvas-header {
       border-bottom: 1px solid #e7e7e7;
       .btn-close:focus {
@@ -54,11 +55,11 @@
         height: 0;
         opacity: 0;
         transition: all 1s;
-        .dropdown-item{
+        .dropdown-item {
           font-size: 14px;
         }
-        .dropdown-divider{
-            border-color: #e7e7e7;
+        .dropdown-divider {
+          border-color: #e7e7e7;
         }
       }
       .dropdown-menu.expand {
