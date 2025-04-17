@@ -1,0 +1,74 @@
+.productCard.card {
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  border-radius: 0;
+  margin-bottom: 30px;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  &:hover {
+    box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.65);
+  }
+
+  .card-body {
+    background: #fbfbfb;
+    padding: 20px 0px;
+    text-align: center;
+    .discount {
+      padding: 4px 14px;
+      font-size: 12px;
+      font-weight: 400;
+      position: absolute;
+      top: 20px;
+      left: 10px;
+      color: #fff;
+      border-radius: 5px;
+      background: #ec008c;
+    }
+    h6 {
+      margin-bottom: 10px;
+      margin-top: 5px;
+      font-weight: normal;
+      line-height: 20px;
+      height: 60px;
+      overflow: hidden;
+      font-size: 10.5px;
+    }
+    a {
+      text-decoration: none;
+      color: #5d5d5d;
+    }
+    .form-check {
+      width: 80px;
+      margin: 0 auto 10px;
+      display: flex;
+      padding-right: 0px;
+      justify-content: center;
+      .form-check-label {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+    }
+    .price-start {
+      height: 30px;
+      p {
+        color: #666;
+        font-size: 14px;
+        margin: 0;
+        span {
+          color: #ec008c;
+          font-size: 10px;
+          text-decoration: line-through;
+        }
+      }
+    }
+    .discount-price {
+      margin: 15px 0px;
+      font-size: 20px;
+      color: #630460;
+      font-weight: 600;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

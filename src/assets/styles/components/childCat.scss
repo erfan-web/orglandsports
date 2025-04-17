@@ -1,0 +1,40 @@
+.headerInfo {
+  background-color: #fff;
+  padding: 30px 0px;
+}
+.headerInfo img {
+  max-width: 350px;
+  height: auto;
+}
+.headerInfo h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.headerInfo p {
+  text-align: justify;
+  font-size: 13px;
+  line-height: 25px;
+}
+.productsList {
+  background: url("https://www.orglandsports.com/img/pattern5.png") #fff;
+  background-repeat: repeat;
+}
+@media screen and (max-width: 768px) {
+  .productsList .container-fluid,
+  .headerInfo .container-fluid {
+    width: 100%;
+    padding: 0;
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .row-product .col-product:nth-child(odd) {
+    padding-left: 5px;
+  }
+
+  .row-product .col-product:nth-child(even) {
+    padding-right: 5px;
+  }
+}
