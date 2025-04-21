@@ -13,21 +13,18 @@
 
 @import "bootstrap/scss/mixins.scss";
 @import "bootstrap/scss/root";
-
 // Optional Bootstrap components here
+
+// overrides folder
 @import "./overrides/bootstrap.scss";
 @import "./overrides/components.scss";
 @import "./overrides/forms.scss";
 
-@import "./components/btnShop.scss";
-@import "./components/searchNav.scss";
-@import "./components/blogNav.scss";
-@import "./components/SortBox.scss";
-@import "./components/offCanvasNav.scss";
-@import "./components/ParentCat.scss";
-@import "./components/childCat.scss";
-@import "./components/productCard.scss";
-@import "./components/footer.scss";
+//components folder
+@import "./components/components.scss";
+
+// pages folder
+@import "./pages/pages.scss";
 
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/type";
