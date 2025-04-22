@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const Sending = () => {
   return (
     <div className="sending">
@@ -12,4 +14,4 @@ const Sending = () => {
     </div>
   );
 };
-export default Sending;
+export default memo(Sending);

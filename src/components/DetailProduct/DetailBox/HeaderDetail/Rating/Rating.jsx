@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { GoStarFill } from "react-icons/go";
 
 const Rating = () => {
@@ -12,4 +13,4 @@ const Rating = () => {
   );
 };
 
-export default Rating
+export default memo(Rating)

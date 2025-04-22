@@ -1,4 +1,4 @@
-import { memo, useCallback } from "react";
+import { memo, useCallback, useEffect } from "react";
 import { useRef, useState } from "react";
 import { Col } from "react-bootstrap";
 // icons
@@ -20,6 +20,9 @@ function SlidersDetail() {
     },
     [activeIndex, thumbsSwiper]
   );
+  useEffect(()=>{
+    console.log('sliders mount');
+  })
   return (
     <Col className="order-lg-2">
       <div className="product-slider">

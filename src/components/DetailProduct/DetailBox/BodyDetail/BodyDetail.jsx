@@ -1,7 +1,7 @@
 import { FaHeart, FaShareAlt } from "react-icons/fa";
 import { RiDiscountPercentFill } from "react-icons/ri";
 import { useSelector } from "react-redux";
-import { useCallback } from "react";
+import { memo, useCallback } from "react";
 import { getDiscountedPrice } from "../../../../utils/price";
 import { Link } from "react-router-dom";
 import FeaturesList from "./FeaturesList/FeaturesList";
@@ -73,4 +73,4 @@ const BodyDetail = () => {
     </div>
   );
 };
-export default BodyDetail;
+export default memo(BodyDetail)

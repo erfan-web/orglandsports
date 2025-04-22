@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import Rating from "./Rating/Rating";
+import { memo } from "react";
 
 const HeaderDetail = () => {
   const { product } = useSelector((store) => store.productReducer);
@@ -13,4 +14,4 @@ const HeaderDetail = () => {
     </div>
   );
 };
-export default HeaderDetail;
+export default memo(HeaderDetail)

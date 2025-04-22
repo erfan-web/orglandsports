@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { Form } from "react-bootstrap";
-import { useState } from "react";
+import { memo, useState } from "react";
 import BtnShop from "../../../BtnShop/BtnShop";
 
 function FooterDetail() {
@@ -13,7 +13,6 @@ function FooterDetail() {
     setSelectedSize(event.target.value);
   };
 
-  
   let price;
   if (product.price) {
     if (product.discount) {
@@ -47,9 +46,7 @@ function FooterDetail() {
 
   return (
     <div className="footerDetail">
-      <div className="price">
-        قیمت برای شما : {price}
-      </div>
+      <div className="price">قیمت برای شما : {price}</div>
       <Form className="mb-5 pb-5">
         {product.sizes ? (
           <>
@@ -87,4 +84,4 @@ function FooterDetail() {
     </div>
   );
 }
-export default FooterDetail;
+export default memo(FooterDetail);

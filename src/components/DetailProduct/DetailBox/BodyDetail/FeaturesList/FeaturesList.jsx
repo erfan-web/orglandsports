@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { FaRegDotCircle } from "react-icons/fa";
+import { memo } from "react";
 
 const FeaturesList = () => {
   const { product } = useSelector((store) => store.productReducer);
@@ -17,4 +18,4 @@ const FeaturesList = () => {
     </ul>
   );
 };
-export default FeaturesList;
+export default memo(FeaturesList)
