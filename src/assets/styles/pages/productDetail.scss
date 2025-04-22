@@ -13,7 +13,7 @@
       margin-bottom: 15px;
 
       .productName {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 25px;
         margin: 20px 0 15px;
       }
@@ -23,24 +23,26 @@
         align-items: baseline;
         justify-content: end;
         margin-bottom: 30px;
-
         .rating {
           position: relative;
-
+          svg {
+            font-size: 14px;
+          }
           &::after {
             content: "";
             position: absolute;
             width: 1px;
-            height: 25px;
+            // height: 25px;
+            height: 20px;
             background-color: #777;
             right: -8px;
           }
         }
 
         .model {
+          font-size: 10px;
           flex-grow: 1;
           text-align: left;
-          font-size: 13px;
           color: #333;
           margin-left: 16px;
         }
@@ -230,6 +232,22 @@
   .title {
     font-size: 16px;
   }
+    .productName {
+      font-size: 18px !important;
+    }
+    .subTitle {
+      .rating {
+        svg {
+          font-size: 20px  !important;
+        }
+        &::after {
+          height: 25px !important;
+        }
+      }
+      .model {
+        font-size: 13px  !important;
+      }
+    }
 }
 
 @media (min-width: 768px) {
