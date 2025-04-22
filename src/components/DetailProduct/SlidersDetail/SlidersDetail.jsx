@@ -20,9 +20,6 @@ function SlidersDetail() {
     },
     [activeIndex, thumbsSwiper]
   );
-  useEffect(()=>{
-    console.log('sliders mount');
-  })
   return (
     <Col className="order-lg-2">
       <div className="product-slider">
