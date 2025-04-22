@@ -290,3 +290,136 @@
     margin-top: 0 !important;
   }
 }
+.tabSection {
+  .container {
+    background-color: white;
+    padding: 0;
+  }
+  .col {
+    padding: 0;
+  }
+  .nav {
+    border-bottom: 1px solid #630460;
+    margin-bottom: 20px;
+  }
+  .nav-item a {
+    border: 0;
+    border-radius: 0;
+    color: #000;
+    font-size: 16px;
+    padding: 20px 0px;
+    text-align: center;
+    &:hover {
+      background-color: #ec008c;
+      color: #fff;
+    }
+  }
+  .nav-item a.active {
+    background-color: #630460;
+    color: #fff;
+  }
+  .tab-pane {
+    padding: 30px;
+    .title {
+      margin-bottom: 20px;
+      font-weight: 900;
+      font-size: 16px;
+    }
+  }
+  .full-specification {
+    .list-group {
+      border-radius: 0;
+      border-top: 1px solid #d4dbde;
+      margin-bottom: 40px;
+    }
+    .list-group-item {
+      border: 1px solid #d4dbde;
+      border-top: 0;
+      background-color: #fff;
+      padding: 15px 20px;
+      font-size: 14px;
+    }
+  }
+  form {
+    textarea {
+      border-radius: 2px;
+      border: 1px solid #d4dbde;
+      height: 135px;
+      text-align: right;
+      font: 14px IRANSans;
+      color: #555;
+      padding: 11px;
+      box-sizing: border-box;
+      margin-bottom: 14px;
+      margin-top: 12px;
+      direction: rtl;
+      width: 100%;
+    }
+    .form-select,
+    .form-control:not(textarea) {
+      border-radius: 2px;
+      border: 1px solid #d4dbde;
+      width: 100%;
+      text-align: right;
+      direction: rtl;
+      font-size: 15px;
+      font-weight: 500;
+      color: #555;
+      padding: 11px;
+      -ms-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 12px 0px 14px;
+      height: 50.4px;
+    }
+    .form-check {
+      margin: 8px 0px;
+      font-size: 15px;
+    }
+    .form-check-input {
+      width: 12px;
+      height: 12px;
+      border: 0;
+      outline: 1px solid #d4dbde;
+      &:checked {
+        outline: 1px solid #0d6efd;
+        border: 2.5px solid #fff;
+      }
+    }
+    button {
+      width: 140px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .tab-pane {
+      padding: 10px;
+    }
+    .tab-pane h5 {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 768px) {
+    .nav > .col:nth-child(-n + 2) {
+      border-bottom: 2px solid #f1f1f1;
+    }
+    .nav > .col:nth-child(odd) {
+      border-left: 2px solid #f1f1f1;
+    }
+  }
+  @media (max-width: 450px) {
+    .nav-item a {
+      color: #000;
+      font-size: 14px;
+    }
+    form button {
+      width: 100%;
+    }
+    .tab-pane h5 {
+      font-size: 14px;
+    }
+    .tab-pane .title {
+      font-size: 14px;
+    }
+  }
+}

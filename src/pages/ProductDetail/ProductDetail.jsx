@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { getProductById } from "../../features/slices/productById";
 import DetailProduct from "../../components/DetailProduct/DetailProduct";
+import TabSection from "../../components/TabSection/TabSection";
 
 function ProductDetail() {
   const { productId } = useParams();
@@ -19,6 +20,7 @@ function ProductDetail() {
     return (
       <>
         <DetailProduct />
+        <TabSection />
       </>
     );
 }
