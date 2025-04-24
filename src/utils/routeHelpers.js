@@ -8,3 +8,7 @@ export const generateProductDetailRoute=(id , name) =>{
   const slug = generateSlug(name);
   return `/ProductDetail/${id}/${slug}`;
 }
+export const productBrandRoute=(brandName)=>{
+  const encodedBrand = encodeURIComponent(brandName)
+  return `/ProductBrands/${encodedBrand}`
+}
