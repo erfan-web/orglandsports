@@ -16,7 +16,7 @@ const SimilarProducts = () => {
       dispatch(getProductsByCategory({ categoryId: product.category_id }));
     }
   }, [dispatch, product, filteredProducts]);
-  
+
   const shuffledProducts = useMemo(() => {
     if (!filteredProducts) return [];
     return getShuffledItems({
@@ -26,7 +26,6 @@ const SimilarProducts = () => {
       limit: 12,
     });
   }, [filteredProducts, product]);
-
   const similarSwiperBtn = {
     prevEl: ".similar-prev",
     nextEl: ".similar-next",
@@ -35,17 +34,19 @@ const SimilarProducts = () => {
     <section className="similarSection">
       <Container>
         <h6 className="title">محصولات مشابه</h6>
-        <div className="product-slider">
-          <div className="similar-prev">
-            <FaAngleRight />
+        {shuffledProducts.length>11 && (
+          <div className="product-slider">
+            <div className="similar-prev">
+              <FaAngleRight />
+            </div>
+            <div className="similar-next">
+              <FaAngleLeft />
+            </div>
+            <ProductSwiper similarSwiperBtn={similarSwiperBtn}>
+              {shuffledProducts}
+            </ProductSwiper>
           </div>
-          <div className="similar-next">
-            <FaAngleLeft />
-          </div>
-          <ProductSwiper similarSwiperBtn={similarSwiperBtn}>
-            {shuffledProducts}
-          </ProductSwiper>
-        </div>
+        )}
       </Container>
     </section>
   );

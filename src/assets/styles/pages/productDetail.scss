@@ -430,6 +430,10 @@
     background-color: #fff;
     margin-bottom: 10px;
   }
+  .title{
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
   .similar-prev,
   .similar-next {
     position: absolute;
@@ -473,6 +477,5 @@
   }
 }
 .ProductsSwiper {
-  padding-top: 10px;
   padding-bottom: 40px;
 }
