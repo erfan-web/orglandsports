@@ -6,6 +6,7 @@ import { getDiscountedPrice } from "../../../../utils/price";
 import { Link } from "react-router-dom";
 import FeaturesList from "./FeaturesList/FeaturesList";
 import Sending from "./Sending/Sending";
+import { generateCategoryRoute, productBrandRoute } from "../../../../utils/routeHelpers";
 const BodyDetail = () => {
   const { product } = useSelector((store) => store.productReducer);
 
@@ -44,12 +45,20 @@ const BodyDetail = () => {
       </div>
       <div className="title">
         <span>
-          برند :
-          {" "}<Link to={`/ProductBrands/${product?.brand}`}>{product.brand}</Link>
+          برند :{" "}
+          <Link to={productBrandRoute(product.brand)}>{product.brand}</Link>
         </span>{" "}
         <span>
           دسته بندی :
-          <Link to={``}>{product && sortDisplay(product?.category_id)}</Link>
+          <Link
+            to={generateCategoryRoute({
+              id: product.category_id,
+              name: sortDisplay(product?.category_id),
+            })}
+          >
+            {" "}
+            {product && sortDisplay(product?.category_id)}
+          </Link>
         </span>
       </div>
       <FeaturesList />
@@ -73,4 +82,4 @@ const BodyDetail = () => {
     </div>
   );
 };
-export default memo(BodyDetail)
+export default memo(BodyDetail);
