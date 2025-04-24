@@ -232,22 +232,22 @@
   .title {
     font-size: 16px;
   }
-    .productName {
-      font-size: 18px !important;
-    }
-    .subTitle {
-      .rating {
-        svg {
-          font-size: 20px  !important;
-        }
-        &::after {
-          height: 25px !important;
-        }
+  .productName {
+    font-size: 18px !important;
+  }
+  .subTitle {
+    .rating {
+      svg {
+        font-size: 20px !important;
       }
-      .model {
-        font-size: 13px  !important;
+      &::after {
+        height: 25px !important;
       }
     }
+    .model {
+      font-size: 13px !important;
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -422,4 +422,56 @@
       font-size: 14px;
     }
   }
+}
+
+.similarSection {
+  .container {
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  .similar-prev,
+  .similar-next {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ededed;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .similar-prev {
+    right: -10px;
+  }
+
+  .similar-next {
+    left: -10px;
+  }
+  @media screen and (min-width: 576px) {
+    .similar-prev {
+      right: -25px;
+    }
+    .similar-next {
+      left: -25px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .similar-prev {
+      right: -10px;
+    }
+
+    .similar-next {
+      left: -10px;
+    }
+  }
+}
+.ProductsSwiper {
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
