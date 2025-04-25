@@ -42,7 +42,7 @@ const SimilarProducts = () => {
             <div className="similar-next">
               <FaAngleLeft />
             </div>
-            <ProductSwiper similarSwiperBtn={similarSwiperBtn}>
+            <ProductSwiper SwiperButtons={similarSwiperBtn}>
               {shuffledProducts}
             </ProductSwiper>
           </div>

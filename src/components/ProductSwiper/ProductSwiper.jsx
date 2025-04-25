@@ -6,14 +6,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import ProductSlide from "../ProductSlide/ProductSlide";
 
-const ProductSwiper = ({ similarSwiperBtn, children }) => {
+const ProductSwiper = ({ SwiperButtons, children }) => {
   return (
     <>
       <Swiper
         className="ProductsSwiper"
         modules={[Navigation]}
         loop={true}
-        navigation={similarSwiperBtn}
+        navigation={SwiperButtons}
         slidesPerView={2}
         spaceBetween={0}
         breakpoints={{
