@@ -1,17 +1,45 @@
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Form } from "react-bootstrap";
-import { memo, useState } from "react";
+import { memo, useCallback, useContext, useEffect } from "react";
 import BtnShop from "../../../BtnShop/BtnShop";
+import { addToCart } from "../../../../features/slices/cart";
+import MessageContext from "../../../../pages/ProductDetail/MessageContext";
 
 function FooterDetail() {
+  const dispatch = useDispatch();
   const { product } = useSelector((store) => store.productReducer);
-
-  const [selectedSize, setSelectedSize] = useState("");
-
-  const handleSizeChange = (event) => {
-    setSelectedSize(event.target.value);
+  const { setMessageStatus, messageStatus, selectedSize, setSelectedSize } =
+    useContext(MessageContext);
+  console.log(selectedSize);
+  const handleSizeChange = (e) => {
+    setSelectedSize(e.target.value);
   };
+
+  useEffect(() => {
+      setSelectedSize(product?.sizes[0]);
+  }, [product, setSelectedSize]);
+
+  const addToCartHandler = useCallback(() => {
+    const productToAdd = {
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.image,
+      size: selectedSize,
+      color: product.color[0],
+      discount: product.discount?.discountedPrice,
+    };
+    dispatch(addToCart(productToAdd));
+    if (!messageStatus) {
+      setMessageStatus(true);
+    }
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [dispatch, product, selectedSize, messageStatus, setMessageStatus]);
 
   let price;
   if (product.price) {
@@ -69,7 +97,9 @@ function FooterDetail() {
                   ))}
                 </Form.Select>{" "}
               </div>
-              <BtnShop>افزودن به سبد خرید</BtnShop>
+              <BtnShop addToCartHandler={addToCartHandler}>
+                افزودن به سبد خرید
+              </BtnShop>
             </Form.Group>
           </>
         ) : (

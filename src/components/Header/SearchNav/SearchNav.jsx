@@ -5,8 +5,11 @@ import { Col, Form, Row } from "react-bootstrap";
 import { BsFillPersonPlusFill, BsFillPersonFill } from "react-icons/bs";
 import { Link, NavLink } from "react-router-dom";
 import { memo } from "react";
+import { useSelector } from "react-redux";
 import BtnShop from "../../BtnShop/BtnShop";
 function SearchNav() {
+  const { addedToCart } = useSelector((store) => store.cartReducer);
+
   return (
     <>
       <Navbar expand="lg" className="searchNav bg-whiteSmoke text-gray-50">
@@ -34,12 +37,9 @@ function SearchNav() {
               </Nav>
             </Col>
             {/* mobile-btn shop */}
-            <Col
-              xs={6}
-              className="d-lg-none px-2 d-flex justify-content-end "
-            >
+            <Col xs={6} className="d-lg-none px-2 d-flex justify-content-end ">
               <Link to={`/cart`}>
-                  <BtnShop>سبد خرید {`(0)`}</BtnShop>
+                <BtnShop>سبد خرید {`(${addedToCart})`}</BtnShop>
               </Link>
             </Col>
             {/* expand-search input */}

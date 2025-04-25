@@ -1,0 +1,40 @@
+.alert{
+    height: 100px;
+    margin-bottom: 0 !important;
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .alert.danger  {
+    width: 100%;
+    max-width: 170px;
+  }
+  .alert .btnShop  {
+    width: auto;
+  }
+
+  .alert .btnSuccess {
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #4caf50;
+    color: #fff;
+  }
+  .alert p {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .alert{
+      justify-content: space-between;
+      align-items: center;
+    }
+      .alert p {
+      font-size: 14px;
+      line-height: 25px;
+    }
+  }

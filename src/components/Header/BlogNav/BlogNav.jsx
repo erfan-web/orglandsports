@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { memo, useEffect, useMemo, useState } from "react";
+import { useSelector } from "react-redux";
 import BtnShop from "../../BtnShop/BtnShop";
 import SortBox from "./SortBox/SortBox";
 import DropDownNav from "./DropDownNav/DropDownNav";
@@ -12,6 +13,7 @@ function BlogNav() {
   const location = useLocation();
   const [isExpand, setIsExpand] = useState(null);
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
+  const { addedToCart } = useSelector((store) => store.cartReducer);
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 992px)");
 
@@ -64,7 +66,7 @@ function BlogNav() {
       <Navbar key={expand} expand={expand} className="blogNav">
         <Container fluid className="d-flex">
           <Link to={`/cart`} className="d-none d-lg-block ">
-            <BtnShop>سبد خرید {`(0)`}</BtnShop>
+            <BtnShop>سبد خرید {`(${addedToCart})`}</BtnShop>
           </Link>
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-${expand}`}

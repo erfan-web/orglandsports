@@ -1,0 +1,33 @@
+.TotalPriceCard {
+    border: 1px solid #dedbde;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+  }
+  .TotalPriceCard div {
+    font-size: 16px;
+    background-color: #f7fff7;
+    border: 1px solid #4caf50;
+    color: #4caf50;
+    height: 60px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .TotalPriceCard hr {
+    color: #acacac;
+  }
+  .TotalPriceCard p {
+    font-size: 11px;
+  }
+  .TotalPriceCard button {
+    all: unset;
+    background-color: #630460;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+  }
