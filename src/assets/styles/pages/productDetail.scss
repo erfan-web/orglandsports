@@ -435,20 +435,7 @@
   }
   .similar-prev,
   .similar-next {
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    background: #fff;
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid #ededed;
-    cursor: pointer;
-    z-index: 10;
+    @include swiperBtnInitial;
   }
   .similar-prev {
     right: -10px;
