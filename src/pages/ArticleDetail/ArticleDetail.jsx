@@ -83,6 +83,9 @@ function ArticleDetail() {
             >
               {article.content}
             </ReactMarkdown>
+            <div style={{padding:'60px 0px 90px'}}>
+              <hr className="m-0"/>
+            </div>
           </Container>
         </div>
         <section className="bg-white">
