@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ArticleCard from "../../components/ArticleCard/ArticleCard";
 import { fetchArticles } from "../../features/slices/articles";
+import ArticlesList from "../../components/ArticlesList/ArticlesList";
 function Articles() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -11,16 +12,11 @@ function Articles() {
   const { articles, status } = useSelector((store) => store.articlesReducer);
   return (
     <>
-      <Container fluid>
-        <h2 className="text-center my-3 mb-5 fs-5 fw-bold">مقالات و دانستنی ها</h2>
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-5 mb-5 pb-3">
-          {articles.map((article) => (
-            <Col key={article.id}>
-              <ArticleCard {...article} />
-            </Col>
-          ))}
-        </Row>
-      </Container>
+      <section style={{ margin: "30px 0px 50px " }}>
+        <Container fluid>
+          <ArticlesList>{articles}</ArticlesList>
+        </Container>
+      </section>
     </>
   );
 }
