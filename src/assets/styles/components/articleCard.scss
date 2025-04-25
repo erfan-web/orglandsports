@@ -1,5 +1,8 @@
-.ArticleCard{
-    transition: all 0.3s ease-in;
+.ArticleCard {
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .ArticleCard .card-body {
   padding: 22px 18px;
