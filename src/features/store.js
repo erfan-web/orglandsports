@@ -4,8 +4,10 @@ import pByCatReducer from "./slices/productsByCat";
 import productReducer from "./slices/productById";
 import brandsReducer from "./slices/brands";
 import pByBrandReducer from "./slices/productsByBrand";
-import  cartReducer from "./slices/cart";
-import  articlesReducer from "./slices/articles";
+import cartReducer from "./slices/cart";
+import articlesReducer from "./slices/articles";
+import articleReducer from "./slices/article";
+import productsReducer from "./slices/products";
 
 const store = configureStore({
   reducer: {
@@ -15,7 +17,9 @@ const store = configureStore({
     brandsReducer,
     pByBrandReducer,
     cartReducer,
-    articlesReducer
+    articlesReducer,
+    articleReducer,
+    productsReducer,
   },
 });
 
