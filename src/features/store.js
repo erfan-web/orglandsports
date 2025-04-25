@@ -5,6 +5,8 @@ import productReducer from "./slices/productById";
 import brandsReducer from "./slices/brands";
 import pByBrandReducer from "./slices/productsByBrand";
 import  cartReducer from "./slices/cart";
+import  articlesReducer from "./slices/articles";
+
 const store = configureStore({
   reducer: {
     categoriesReducer,
@@ -12,7 +14,8 @@ const store = configureStore({
     productReducer,
     brandsReducer,
     pByBrandReducer,
-    cartReducer
+    cartReducer,
+    articlesReducer
   },
 });
 
