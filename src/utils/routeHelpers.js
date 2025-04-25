@@ -14,5 +14,5 @@ export const productBrandRoute = (brandName) => {
 };
 export const generateArticleDetailRoute = (id, name) => {
   const slug = generateSlug(name);
-  return `/ArticleDetails/${id}/${slug}`;
+  return `/ArticleDetail/${id}/${slug}`;
 };
