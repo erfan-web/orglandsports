@@ -27,3 +27,34 @@
   cursor: pointer;
   z-index: 10;
 }
+
+
+@mixin hover-border-effect {
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    transition: 0.5s;
+    border: 2px solid #ec008c;
+  }
+  &::before {
+    top: 0;
+    left: 50%;
+    width: 0%;
+    height: 100%;
+    transform: translateX(-50%);
+    border-left: 0;
+    border-right: 0;
+  }
+  &::after {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    transform: translateY(-50%);
+    border-top: 0;
+    border-bottom: 0;
+  }
+}
+
+

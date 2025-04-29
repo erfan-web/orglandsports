@@ -1,75 +1,36 @@
 .category {
   padding: 60px 0px;
-  .col:hover {
-    .media::before {
-      left: 0;
-      width: 105%;
-      transform: translateX(-2.5%);
-    }
-    .media::after {
-      top: 0;
-      height: 120%;
-      transform: translateY(-8%);
-    }
-    .media {
-      border: transparent;
-    }
-  }
+  // استایل کتگوری کانتینر
   .category-container {
     padding: 20px;
     background-color: #fff;
     pointer-events: none;
     user-select: none;
+
     a {
-      pointer-events: auto; /* فعال کردن فقط برای لینک */
+      pointer-events: auto;
+      cursor: pointer;
     }
+
     .media {
-      display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding: 30px 20px 20px;
-      border: 2px dashed #f0f0f0;
-      position: relative;
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 0%;
-        height: 100%;
-        border: 2px solid #ec008c;
-        transform: translateX(-50%);
-        border-left: 0;
-        border-right: 0;
-        transition: 0.5s;
-      }
-      &::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 100%;
-        height: 0%;
-        border: 2px solid #ec008c;
-        transform: translateY(-50%);
-        border-bottom: 0;
-        border-top: 0;
-        transition: 0.5s;
-      }
+
       .title {
         font-size: 12px;
         margin-bottom: 10px;
       }
+
       .desc {
         font-size: 9px;
         color: #999;
       }
-      a {
-        cursor: pointer;
-      }
+
       .imgbox {
         width: 75px;
         margin-right: 15px;
+
         img {
           width: 100%;
           padding-top: 8px;
@@ -79,8 +40,64 @@
   }
 }
 
-@media screen and (min-width: 470px) {
- .media .title {
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 5px;
+  border: 2px dashed #f0f0f0;
+  position: relative;
+  @include hover-border-effect;
+
+  div {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  img {
+    width: 33px;
+  }
+
+  .title,
+  .desc {
+    margin-bottom: 0;
+  }
+
+  .desc {
+    margin-top: 10px;
+    color: #666;
+  }
+}
+// حالت هاور برای مدیا
+.col:hover {
+  .media {
+    border: transparent;
+
+    &::before {
+      left: 0;
+      width: 105%;
+      transform: translateX(-2.5%);
+    }
+    &::after {
+      top: 0;
+      height: 120%;
+      transform: translateY(-8%);
+    }
+  }
+}
+// ریسپانسیو
+@media (min-width: 450px) {
+  .media div {
+    font-size: 14px;
+  }
+  .media img {
+    all: unset;
+  }
+}
+@media (min-width: 470px) {
+  .media .title {
     font-size: 14px;
   }
   .media .desc {
