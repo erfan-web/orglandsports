@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { Col, Container, Row } from "react-bootstrap";
 
-import ProductCard from "../../components/productCard/ProductCard";
+import ProductCard from "../../components/ProductCard/ProductCard";
 
 import { getProductByBrand } from "../../features/slices/productsByBrand";
 
