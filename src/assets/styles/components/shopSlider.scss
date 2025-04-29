@@ -1,0 +1,47 @@
+.shopSliderBtn-prev,
+.shopSliderBtn-next {
+  @include swiperBtnInitial;
+}
+.shopSliderBtn-prev {
+  right: -25px;
+}
+.shopSliderBtn-next {
+  left: -25px;
+}
+.shop-slider {
+    position: relative;
+    padding: 0px 5px;
+  }
+
+.shop-slider p {
+  margin-bottom: 30px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+}
+@media screen and (max-width: 1225px) {
+  .shopSliderBtn-prev {
+    right: 0;
+  }
+
+  .shopSliderBtn-next {
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .shop-slider p {
+    font-size: 14px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .shop-slider p {
+    font-size: 16px;
+    padding: 0px;
+  }
+  .shop-slider {
+    padding: 36px 36px 0px;
+  }
+}
