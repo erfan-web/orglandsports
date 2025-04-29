@@ -45,4 +45,14 @@
 
 .productSlide:hover .card-body {
   background-color: #f5f2ed;
+  border-color: transparent;
+}
+@media screen and (max-width: 576px) {
+  .swiper-slide-active .productSlide .card-body {
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+  .swiper-slide-next .productSlide .card-body {
+    border-left-color: transparent;
+  }  
 }
