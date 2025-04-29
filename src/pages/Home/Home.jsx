@@ -5,8 +5,25 @@ import ServicesList from "../../components/ServicesList/ServicesList";
 import ShopSlider from "../../components/ShopSlider/ShopSlider";
 import SpetialSection from "../../components/SpetialSection/SpetialSection";
 import PopularSection from "../../components/PopularSection/PopularSection";
-
+import ArticlesList from "../../components/ArticlesList/ArticlesList";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect, useMemo } from "react";
+import { getShuffledItems } from "../../utils/shuffleHelpers";
+import { fetchArticles } from "../../features/slices/articles";
 function Home() {
+  const { articles } = useSelector((store) => store.articlesReducer);
+  const dispatch = useDispatch();
+  const shuffledArticles = useMemo(() => {
+    if (!articles) return [];
+    return getShuffledItems({
+      items: articles,
+      limit: 4,
+    });
+  }, [articles]);
+
+  useEffect(() => {
+    dispatch(fetchArticles());
+  }, [dispatch]);
   return (
     <>
       <HeroSwiper />
@@ -68,6 +85,11 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      <section className="py-5">
+        <Container fluid>
+          <ArticlesList>{shuffledArticles}</ArticlesList>
+        </Container>
+      </section>
     </>
   );
 }
