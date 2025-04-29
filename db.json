@@ -145,14 +145,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "بنفش"
-      ],
-      "sizes": [
-        "40.5",
-        "42",
-        "42.5"
-      ],
+      "color": ["بنفش"],
+      "sizes": ["40.5", "42", "42.5"],
       "price": 8400000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/416313585.JPG",
@@ -192,22 +186,15 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "بنفش"
-      ],
-      "sizes": [
-        "40",
-        "41",
-        "42.5",
-        "44"
-      ],
+      "color": ["بنفش"],
+      "sizes": ["40", "41", "42.5", "44"],
       "price": 8197200,
       "discount": {
         "type": "dynamic",
         "discountedPrice": 7220000,
         "spetial": true,
-        "startDate": "2025-03-30",
-        "endDate": "2025-04-5"
+        "startDate": "2025-04-25",
+        "endDate": "2025-07-1"
       },
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/558855856.JPG",
       "images": [
@@ -245,18 +232,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سفید"
-      ],
-      "sizes": [
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "44",
-        "44.5",
-        "45"
-      ],
+      "color": ["سفید"],
+      "sizes": ["40", "40.5", "41", "42", "44", "44.5", "45"],
       "price": 8800000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/227864957.JPG",
@@ -297,13 +274,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "مشکی"
-      ],
-      "sizes": [
-        "44.5",
-        "45"
-      ],
+      "color": ["مشکی"],
+      "sizes": ["44.5", "45"],
       "price": 6450000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/80696246.JPG",
@@ -345,22 +317,15 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سبز"
-      ],
-      "sizes": [
-        "42.5",
-        "44",
-        "44.5",
-        "46"
-      ],
+      "color": ["سبز"],
+      "sizes": ["42.5", "44", "44.5", "46"],
       "price": 9066600,
       "discount": {
         "type": "dynamic",
         "discountedPrice": 7884000,
         "spetial": true,
-        "startDate": "2025-03-30",
-        "endDate": "2025-04-4"
+        "startDate": "2025-04-25",
+        "endDate": "2025-07-1"
       },
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/816236283.JPG",
       "images": [
@@ -398,15 +363,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سفید"
-      ],
-      "sizes": [
-        "44",
-        "44.5",
-        "45",
-        "46"
-      ],
+      "color": ["سفید"],
+      "sizes": ["44", "44.5", "45", "46"],
       "price": 7500000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/392563925.JPG",
@@ -444,15 +402,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "نارنجی"
-      ],
-      "sizes": [
-        "42.5",
-        "43",
-        "44",
-        "44.5"
-      ],
+      "color": ["نارنجی"],
+      "sizes": ["42.5", "43", "44", "44.5"],
       "price": 8100000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/699826987.JPG",
@@ -493,17 +444,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سفید"
-      ],
-      "sizes": [
-        "38.5",
-        "40.5",
-        "42",
-        "44.5",
-        "45",
-        "46"
-      ],
+      "color": ["سفید"],
+      "sizes": ["38.5", "40.5", "42", "44.5", "45", "46"],
       "price": 8800000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/703201680.JPG",
@@ -543,12 +485,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "آبی"
-      ],
-      "sizes": [
-        "43"
-      ],
+      "color": ["آبی"],
+      "sizes": ["43"],
       "price": 6220000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/47649205.JPG",
@@ -587,22 +525,14 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "مشکی"
-      ],
-      "sizes": [
-        "40.5",
-        "41",
-        "42.5",
-        "43",
-        "45"
-      ],
+      "color": ["مشکی"],
+      "sizes": ["40.5", "41", "42.5", "43", "45"],
       "price": 7290000,
       "discount": {
         "type": "dynamic",
         "discountedPrice": 6800000,
-        "startDate": "2025-03-30",
-        "endDate": "2025-04-15"
+        "startDate": "2025-04-25",
+        "endDate": "2025-07-1"
       },
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/933359518.JPG",
       "images": [
@@ -639,12 +569,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "مشکی"
-      ],
-      "sizes": [
-        "45"
-      ],
+      "color": ["مشکی"],
+      "sizes": ["45"],
       "price": 6750000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/54679921.JPG",
@@ -684,21 +610,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سفید"
-      ],
-      "sizes": [
-        "35",
-        "36",
-        "37",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "45",
-        "46",
-        "47"
-      ],
+      "color": ["سفید"],
+      "sizes": ["35", "36", "37", "42.5", "43", "44", "44.5", "45", "46", "47"],
       "price": 6220000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/693897091.PNG",
@@ -736,18 +649,14 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سبز"
-      ],
-      "sizes": [
-        "43"
-      ],
+      "color": ["سبز"],
+      "sizes": ["43"],
       "price": 8197200,
       "discount": {
         "type": "dynamic",
         "discountedPrice": 7452000,
-        "startDate": "2025-03-30",
-        "endDate": "2025-04-15"
+        "startDate": "2025-04-25",
+        "endDate": "2025-07-1"
       },
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/289582864.JPG",
       "images": [
@@ -787,19 +696,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "مشکی"
-      ],
-      "sizes": [
-        "37",
-        "39",
-        "40.5",
-        "41",
-        "42",
-        "43",
-        "44",
-        "46"
-      ],
+      "color": ["مشکی"],
+      "sizes": ["37", "39", "40.5", "41", "42", "43", "44", "46"],
       "price": 7900000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/920415156.JPG",
@@ -841,20 +739,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "سفید"
-      ],
-      "sizes": [
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "46"
-      ],
+      "color": ["سفید"],
+      "sizes": ["39", "40", "40.5", "41", "42", "42.5", "43", "44", "46"],
       "price": 7900000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/567728454.JPG",
@@ -897,20 +783,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "قرمز"
-      ],
-      "sizes": [
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "46"
-      ],
+      "color": ["قرمز"],
+      "sizes": ["39", "40", "40.5", "41", "42", "42.5", "43", "44", "46"],
       "price": 7900000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/763717858.JPG",
@@ -1105,15 +979,8 @@
       "reviews_count": 25,
       "views": 800,
       "stock": 10,
-      "sizes": [
-        "40.5",
-        "41",
-        "42",
-        "45"
-      ],
-      "color": [
-        "مشکی"
-      ],
+      "sizes": ["40.5", "41", "42", "45"],
+      "color": ["مشکی"],
       "price": 7850000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/579516561.JPG",
@@ -1154,13 +1021,8 @@
       "reviews_count": 30,
       "views": 1000,
       "stock": 12,
-      "sizes": [
-        "40",
-        "40.5"
-      ],
-      "color": [
-        "مشکی"
-      ],
+      "sizes": ["40", "40.5"],
+      "color": ["مشکی"],
       "price": 7850000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/453328282.JPG",
@@ -1204,12 +1066,8 @@
       "reviews_count": 20,
       "views": 900,
       "stock": 15,
-      "sizes": [
-        "40"
-      ],
-      "color": [
-        "مشکی"
-      ],
+      "sizes": ["40"],
+      "color": ["مشکی"],
       "price": 3850000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/125892589.JPG",
@@ -1248,15 +1106,8 @@
       "reviews_count": 25,
       "views": 1100,
       "stock": 14,
-      "sizes": [
-        "39",
-        "41",
-        "42.5",
-        "43"
-      ],
-      "color": [
-        "مشکی"
-      ],
+      "sizes": ["39", "41", "42.5", "43"],
+      "color": ["مشکی"],
       "price": 7450000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/108417251.JPG",
@@ -1517,15 +1368,8 @@
       "reviews_count": 20,
       "views": 1000,
       "stock": 10,
-      "color": [
-        "چند رنگ"
-      ],
-      "sizes": [
-        "40",
-        "40.5",
-        "42",
-        "43"
-      ],
+      "color": ["چند رنگ"],
+      "sizes": ["40", "40.5", "42", "43"],
       "price": 5850000,
       "discount": null,
       "image": "https://www.orglandsports.com/WebsiteImages/ProductImages/43350769.JPG",
@@ -1677,6 +1521,42 @@
       "technical_details": {
         "articleNum": "KNEEPAD-146814",
         "brand": "asics"
+      }
+    },
+    {
+      "id": "37",
+      "category_id": 10,
+      "name": "توپ فوتسال اورجینال الشپرت مدل medusa",
+      "model": "uhlsport medusa futsal ball100161302",
+      "brand": "الشپرت",
+      "sales": 200,
+      "ratings": 4.5,
+      "reviews_count": 20,
+      "views": 1000,
+      "stock": 10,
+      "price": 5500000,
+      "discount": null,
+      "color": ["سفید"],
+      "sizes":[4],
+      "image": "https://www.orglandsportt.com/WebsiteImages/ProductImages/893203138.JPG",
+      "images": [
+        "https://www.orglandsportt.com/WebsiteImages/ProductImages/9141640881.JPG",
+        "https://www.orglandsportt.com/WebsiteImages/ProductImages/73600002.JPG",
+        "https://www.orglandsportt.com/WebsiteImages/ProductImages/8231580643.JPG",
+        "https://www.orglandsportt.com/WebsiteImages/ProductImages/5783232754.JPG",
+        "https://www.orglandsportt.com/WebsiteImages/ProductImages/5783232755.JPG"
+      ],
+      "key_features": [
+        "دارای ضمانت اصالت کالا",
+        "مورد تایید فیفا",
+        "سایز 4",
+        "ساخت پاکستان",
+        "2 ماه وارانتی تعویض",
+        "سال ساخت 2024"
+      ],
+      "technical_details": {
+        "articleNum": "ball100161302",
+        "brand": "uhlsport"
       }
     }
   ],
