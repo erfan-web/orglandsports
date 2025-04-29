@@ -1,0 +1,27 @@
+.service-container {
+  padding: 15px;
+  background-color: #fff;
+
+  @media (min-width: 992px) {
+    padding: 20px;
+    pointer-events: none;
+    user-select: none;
+
+    .media {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 30px 30px 30px 0;
+
+      div {
+        text-align: right;
+        margin-top: 0;
+        margin-right: 15px;
+      }
+
+      img {
+        all: unset;
+      }
+    }
+  }
+}
