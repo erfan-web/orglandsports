@@ -17,7 +17,7 @@ function FooterDetail() {
   };
 
   useEffect(() => {
-      setSelectedSize(product?.sizes[0]);
+    if (product && product.sizes) setSelectedSize(product?.sizes[0]);
   }, [product, setSelectedSize]);
 
   const addToCartHandler = useCallback(() => {
