@@ -1,0 +1,77 @@
+.popularCard {
+    transition: 0.5s;
+    transform: translateY(0);
+    width: 100%;
+    border: 0 ;
+  }
+  .popularCard .card-img{
+    border-radius: 0 ;
+  }
+  .popularCard .card-body {
+    padding: 18px 10px;
+    border: 0;
+    border-top: 0;
+    background: white;
+    transition: all 0.5s;
+    text-align: center;
+  }
+  .popularCard .card-body .card-title {
+    font-size: 11px;
+    height: 25px;
+    overflow: hidden;
+  }
+  .popularCard .card-body a {
+    text-decoration: none;
+    color: #000;
+  }
+  .popularCard .card-body .discount {
+    padding: 4px 12px 3px;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    background: #ec008c;
+  }
+  .price-start {
+    height: 20px;
+  }
+  .price-start p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+  }
+  .price-start p span {
+    color: #ec008c;
+    font-size: 10px;
+    text-decoration: line-through;
+  }
+  .popularCard .card-body .price-start:last-child p {
+    color: #630460;
+  }
+  .popularCard .card-body .price-start strong {
+    color: #630460;
+  }
+  .popularCard:hover {
+    transform: translateY(-2%);
+  }
+  .popularCard:hover .card-body {
+    background-color: #630460;
+  }
+  .popularCard:hover .card-title a {
+    color: #fff;
+  }
+  .popularCard:hover .price-start:last-child p {
+    color: #fff;
+  }
+  .popularCard:hover .price-start strong {
+    color: #fff;
+  }
+  @media screen and (max-width: 568px) {
+    .popular-section .row .col:nth-child(odd) .popularCard{
+      border-left: 1px solid #e5e5e5 ;
+    }
+  }
+  

@@ -4,6 +4,7 @@ import ServicesList from "../../components/ServicesList/ServicesList";
 import ShopSlider from "../../components/ShopSlider/ShopSlider";
 import SpetialSection from "../../components/SpetialSection/SpetialSection";
 import { Link } from "react-router-dom";
+import PopularSection from "../../components/PopularSection/PopularSection";
 
 function Home() {
   return (
@@ -39,6 +40,8 @@ function Home() {
           </Col>
         </Row>
       </Container>
+
+      <PopularSection />
 
     </>
   );
