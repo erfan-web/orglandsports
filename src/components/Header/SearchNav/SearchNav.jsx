@@ -58,11 +58,11 @@ function SearchNav() {
               <div className="Account-expand-lg">
                 <BsFillPersonPlusFill className="icon" size={"20px"} />
                 <span style={{ marginTop: "2px", paddingRight: "6px" }}>
-                  <NavLink to="/Account/Newuser">ثبت نام</NavLink>
+                  <NavLink to="/Newuser">ثبت نام</NavLink>
                 </span>
                 <BsFillPersonFill className="icon" size={"20px"} />
                 <span style={{ marginBottom: "2px", paddingRight: "3px" }}>
-                  <NavLink to="/Account/login">ورود</NavLink>
+                  <NavLink to="/login">ورود</NavLink>
                 </span>
               </div>
             </Col>

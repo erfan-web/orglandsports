@@ -50,7 +50,7 @@ function BlogNav() {
       <NavLink to="/About" className="nav-link">
         درباره ما
       </NavLink>
-      <NavLink to="/Account/Newuser" className="nav-link">
+      <NavLink to="/Newuser" className="nav-link">
         ثبت نام
       </NavLink>
       <NavLink to="/Account" className="nav-link">
