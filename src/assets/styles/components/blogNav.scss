@@ -22,6 +22,10 @@
     &:hover {
       color: #ec008c;
     }
+    &:focus {
+      color: #5d5d5d;
+    }
+
   }
   .nav-link.active {
     color: #ec008c;
