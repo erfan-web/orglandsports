@@ -1,0 +1,71 @@
+.Account {
+  background-color: #fff;
+  margin: 0;
+  padding: 90px 10px;
+}
+
+.Account form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px;
+  padding: 30px;
+  color: #999;
+}
+form .title {
+  color: #5d5d5d;
+  font-weight: 700;
+  position: relative;
+  padding-right: 10px;
+}
+form .title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 2px;
+  height: 12px;
+  background-color: #ec008c;
+}
+.Account .form-control {
+  border-radius: 2px;
+  border: none;
+  font-size: 13px;
+  height: 40px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.Account .form-control:focus {
+  border: 1px solid #000;
+  box-shadow: none;
+}
+.Account .form-control::placeholder {
+  color: #999;
+}
+.Account form.signup .form-text {
+  font-size: 11px;
+}
+.Account form .formGroup {
+  height: 75px;
+}
+.Account form .form-check {
+  display: inline-block;
+  margin: 0px 5px;
+}
+.Account .form-check-label {
+  font-size: 12px;
+}
+.Account button {
+  width: 78px;
+  font-size: 14px;
+  border-radius: 0;
+  background-color: #ec008c;
+  outline: 0;
+  border: 0;
+}
+.Account button:hover {
+  background-color: #ec008c;
+}
