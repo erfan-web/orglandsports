@@ -6,6 +6,7 @@ import { productBrandRoute } from "../../utils/routeHelpers";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchBrands } from "../../features/slices/brands";
+import { Helmet } from "react-helmet";
 
 function Brands() {
   const dispatch = useDispatch();
@@ -14,11 +15,14 @@ function Brands() {
   useEffect(() => {
     dispatch(fetchBrands());
   }, [dispatch]);
-  
 
   if (status === "loading") return <p>در حال بارگذاری...</p>;
   return (
     <>
+      <Helmet>
+        <title>نمایش همه برند های فروشگاه اورجلند</title>
+      </Helmet>
+
       <section className="content">
         <h2 className="title ">برندهای فروشگاه</h2>
         <Container>

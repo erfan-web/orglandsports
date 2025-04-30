@@ -7,19 +7,22 @@ import { Col, Container, Row } from "react-bootstrap";
 import ProductCard from "../../components/ProductCard/ProductCard";
 
 import { getProductByBrand } from "../../features/slices/productsByBrand";
+import { Helmet } from "react-helmet";
 
 function ProductBrands() {
   const dispatch = useDispatch();
   const { brandName } = useParams();
 
   const { productBrands } = useSelector((store) => store.pByBrandReducer);
-  console.log(productBrands);
   useEffect(() => {
     dispatch(getProductByBrand({ brandName }));
   }, [dispatch, brandName]);
 
   return (
     <>
+    <Helmet>
+      <title>خرید محصولات {brandName}</title>
+    </Helmet>
       <section className="py-5 productBrands">
         <Container fluid>
           <Row className="p-0 px-xl-2 justify-content-center">

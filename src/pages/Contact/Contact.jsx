@@ -1,11 +1,16 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import { MdDone, MdClose , MdEmail } from "react-icons/md";
+import { MdDone, MdClose, MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 function Contact() {
   return (
     <>
+      <Helmet>
+        <title>تماس با ما</title>
+      </Helmet>
+
       <section className="contact">
-        <Container >
+        <Container>
           <p className="top-address">
             فروش حضوری :تهران شهریار خیابان مفتح مجتمع تجاری الماس شهر طبقه سوم
             پلاک 425
@@ -111,7 +116,7 @@ function Contact() {
                   </div>
                   <div className="email">
                     <div className="radius-icon">
-                      <MdEmail size={'20px'}  />
+                      <MdEmail size={"20px"} />
                     </div>
                     <p>Orglandsport@gmail.com</p>
                   </div>

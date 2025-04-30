@@ -8,6 +8,7 @@ import {
 } from "../../features/slices/categories";
 import ParentCat from "./ParentCat/ParentCat";
 import ChildCat from "./ChildCat/ChildCat";
+import { Helmet } from "react-helmet";
 function Categories() {
   const { categoryId } = useParams();
   const dispatch = useDispatch();
@@ -34,6 +35,12 @@ function Categories() {
   if (!currentCategories) return <p>دسته‌بندی یافت نشد!</p>;
   return (
     <>
+      {currentCategories &&
+        currentCategories.name &&(
+          <Helmet>
+            <title>{`خرید ${currentCategories?.name}`}</title>
+          </Helmet>
+        )}
       {parentCategories.some((cat) => cat.id == categoryId) ? (
         <ParentCat />
       ) : (

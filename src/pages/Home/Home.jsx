@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useMemo } from "react";
 import { getShuffledItems } from "../../utils/shuffleHelpers";
 import { fetchArticles } from "../../features/slices/articles";
+import { Helmet } from "react-helmet";
 function Home() {
   const { articles } = useSelector((store) => store.articlesReducer);
   const dispatch = useDispatch();
@@ -26,6 +27,12 @@ function Home() {
   }, [dispatch]);
   return (
     <>
+      <Helmet>
+        <title>
+          فروشگاه کفش فوتسال - لوازم و پوشاک ورزشی اورجینال - اورج لند
+        </title>
+      </Helmet>
+
       <HeroSwiper />
       <ServicesList />
       <ShopSlider />

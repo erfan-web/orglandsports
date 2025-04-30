@@ -10,13 +10,14 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import { fetchProducts } from "../../features/slices/products";
 import ArticlesList from "../../components/ArticlesList/ArticlesList";
 import { fetchArticles } from "../../features/slices/articles";
+import { Helmet } from "react-helmet";
 function ArticleDetail() {
   const dispatch = useDispatch();
-  const { articleId } = useParams();
+  const { articleId, articleName } = useParams();
   const { article, status } = useSelector((store) => store.articleReducer);
   const { products } = useSelector((store) => store.productsReducer);
   const { articles } = useSelector((store) => store.articlesReducer);
-
+  const FormatedArticleName = articleName.replace(/(-)+/g, " ");
   // for swiper proudcts
   const shuffledProducts = useMemo(() => {
     if (!products) return [];
@@ -44,14 +45,17 @@ function ArticleDetail() {
   useEffect(() => {
     dispatch(getArticleById({ articleId }));
     dispatch(fetchProducts());
-    if (articles.length==0) {
-      dispatch(fetchArticles())
+    if (articles.length == 0) {
+      dispatch(fetchArticles());
     }
-  }, [dispatch,articles, articleId]);
+  }, [dispatch, articles, articleId]);
 
   if (article && status === "success")
     return (
       <>
+        <Helmet>
+          <title>{FormatedArticleName}</title>
+        </Helmet>
         <div className="markdown-content">
           <Container>
             <ReactMarkdown
@@ -70,12 +74,16 @@ function ArticleDetail() {
                   >
                     <img
                       {...props}
-                      style={{ maxWidth: "100%", borderRadius: "10px" ,display:'inline-block'}}
+                      style={{
+                        maxWidth: "100%",
+                        borderRadius: "10px",
+                        display: "inline-block",
+                      }}
                     />
                   </span>
                 ),
                 h6: ({ node, ...props }) => (
-                  <div  className="list-item">
+                  <div className="list-item">
                     <h6>{props.children}</h6>
                   </div>
                 ),
@@ -83,8 +91,8 @@ function ArticleDetail() {
             >
               {article.content}
             </ReactMarkdown>
-            <div style={{padding:'60px 0px 90px'}}>
-              <hr className="m-0"/>
+            <div style={{ padding: "60px 0px 90px" }}>
+              <hr className="m-0" />
             </div>
           </Container>
         </div>
