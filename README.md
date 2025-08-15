@@ -17,28 +17,16 @@
 
 ---
 
-
 ##  دمو(Demo)
 
-###  فیلتر محصولات
-![demo](./public/demo-filter.png)
-###  سبد خرید
+[![Demo on Vercel](https://img.shields.io/badge/Vercel-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://orgland-sports.vercel.app)
 
-![demo](./public/demo-cart.png)
-
----
 
 ##  نصب و اجرا
 
 ```bash
 
-
-
  1- نصب پکیج‌ها
 npm install
-
- 2- اجرای (fake api (json-server
-json-server -w db.json -p8000
-
- 3- اجرای پروژ 
+ 2- اجرای پروژ 
 npm run dev
