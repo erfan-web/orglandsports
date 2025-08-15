@@ -4,7 +4,7 @@ import axios from "axios";
 export const fetchBrands = createAsyncThunk(
   "brands/fetchBrandsStatus",
   async () => {
-    const res = await axios.get(`/api/brands`);
+    const res = await axios.get(`https://orgland-sports.vercel.app/api/brands`);
     const brands = res.data;
     return brands;
   }

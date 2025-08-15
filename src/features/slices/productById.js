@@ -3,7 +3,7 @@ import axios from "axios";
 export const getProductById = createAsyncThunk(
   "product/getProductByIdStatus",
   async ({ productId }) => {
-    const res = await axios.get(`/api/products?id=${productId}`);
+    const res = await axios.get(`https://orgland-sports.vercel.app/api/products?id=${productId}`);
     const product = res.data;
     return product;
   }

@@ -5,9 +5,9 @@ export const getProductsByCategory = createAsyncThunk(
   "ProductsByCat/getProductsByCategoryStatus",
   async ({ categoryId }) => {
     const res = await axios.get(
-      `/api/products?category_id=${categoryId}`
+      `https://orgland-sports.vercel.app/api/products?category_id=${categoryId}`
     );
-    const Products =  res.data.sort((a, b) => {
+    const Products = res.data.sort((a, b) => {
       if (a.price === null && b.price !== null) return 1;
       if (b.price === null && a.price !== null) return -1;
       return b.id - a.id;
@@ -237,6 +237,6 @@ const ProductsByCatSlice = createSlice({
     });
   },
 });
-export const { setFilter, clearFilters, sortProducts } = ProductsByCatSlice.actions;
+export const { setFilter, clearFilters, sortProducts } =
+  ProductsByCatSlice.actions;
 export default ProductsByCatSlice.reducer;
-

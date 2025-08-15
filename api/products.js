@@ -1,5 +1,12 @@
 // /api/products.js
 export default function handler(req, res) {
+  res.setHeader("Access-Control-Allow-Origin", "*"); // اجازه همه دامنه‌ها
+  res.setHeader("Access-Control-Allow-Methods", "GET"); // مجاز به این متدها
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  if (req.method === "OPTIONS") {
+    res.status(200).end();
+    return;
+  }
   if (req.method === "GET") {
     const id = req.query.id;
     const category = req.query.category_id;
@@ -1483,7 +1490,9 @@ export default function handler(req, res) {
         res.status(404).json({ message: "product not found" });
       }
     } else if (brand) {
-      const product = products.filter((p) => p.technical_details.brand == brand);
+      const product = products.filter(
+        (p) => p.technical_details.brand == brand
+      );
       if (product) {
         res.status(200).json(product);
       } else {

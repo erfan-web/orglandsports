@@ -5,8 +5,9 @@ export const getProductByBrand = createAsyncThunk(
   "productBrands/getProductByBrandStatus",
   async ({ brandName }) => {
     const res = await axios.get(
-      `/api/products?brand=${brandName}`
+      `https://orgland-sports.vercel.app/api/products?brand=${brandName}`
     );
+    console.log(res);
     const data = res.data;
     return data;
   }
