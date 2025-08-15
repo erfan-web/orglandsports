@@ -5,7 +5,7 @@ export const getProductsByCategory = createAsyncThunk(
   "ProductsByCat/getProductsByCategoryStatus",
   async ({ categoryId }) => {
     const res = await axios.get(
-      `http://localhost:8000/products?category_id=${categoryId}`
+      `/api/products?category_id=${categoryId}`
     );
     const Products =  res.data.sort((a, b) => {
       if (a.price === null && b.price !== null) return 1;

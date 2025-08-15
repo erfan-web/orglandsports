@@ -4,7 +4,7 @@ import axios from "axios";
 export const fetchBrands = createAsyncThunk(
   "brands/fetchBrandsStatus",
   async () => {
-    const res = await axios.get(`http://localhost:8000/brands`);
+    const res = await axios.get(`/api/brands`);
     const brands = res.data;
     return brands;
   }
@@ -26,4 +26,4 @@ const brandsSlice = createSlice({
     });
   },
 });
-export default brandsSlice.reducer
+export default brandsSlice.reducer;

@@ -6,7 +6,10 @@ import { getDiscountedPrice } from "../../../../utils/price";
 import { Link } from "react-router-dom";
 import FeaturesList from "./FeaturesList/FeaturesList";
 import Sending from "./Sending/Sending";
-import { generateCategoryRoute, productBrandRoute } from "../../../../utils/routeHelpers";
+import {
+  generateCategoryRoute,
+  productBrandRoute,
+} from "../../../../utils/routeHelpers";
 const BodyDetail = () => {
   const { product } = useSelector((store) => store.productReducer);
 
@@ -32,54 +35,53 @@ const BodyDetail = () => {
         return `___`;
     }
   }, []);
-
-  return (
-    <div className="bodyDetail">
-      <div className="PopularProduct">
-        <span>
-          <FaShareAlt color="#ec008c" size={"16px"} />
-        </span>
-        <span>
-          <FaHeart color="#ec008c" size={"16px"} />
-        </span>
+    return (
+      <div className="bodyDetail">
+        <div className="PopularProduct">
+          <span>
+            <FaShareAlt color="#ec008c" size={"16px"} />
+          </span>
+          <span>
+            <FaHeart color="#ec008c" size={"16px"} />
+          </span>
+        </div>
+        <div className="title">
+          <span>
+            برند :{" "}
+            <Link to={productBrandRoute(product?.brand)}>{product?.brand}</Link>
+          </span>{" "}
+          <span>
+            دسته بندی :
+            <Link
+              to={generateCategoryRoute({
+                id: product?.category_id,
+                name: sortDisplay(product?.category_id),
+              })}
+            >
+              {" "}
+              {product && sortDisplay(product?.category_id)}
+            </Link>
+          </span>
+        </div>
+        <FeaturesList />
+        <Sending />
+        <div className="discount">
+          {product?.discount && (
+            <>
+              <span>
+                <RiDiscountPercentFill size={"20px"} color="#ec008c" />
+              </span>{" "}
+              {
+                getDiscountedPrice({
+                  price: product?.price,
+                  discount: product?.discount,
+                }).Percent
+              }
+              <span className="ps-1">درصد تخفیف</span>
+            </>
+          )}
+        </div>
       </div>
-      <div className="title">
-        <span>
-          برند :{" "}
-          <Link to={productBrandRoute(product.brand)}>{product.brand}</Link>
-        </span>{" "}
-        <span>
-          دسته بندی :
-          <Link
-            to={generateCategoryRoute({
-              id: product.category_id,
-              name: sortDisplay(product?.category_id),
-            })}
-          >
-            {" "}
-            {product && sortDisplay(product?.category_id)}
-          </Link>
-        </span>
-      </div>
-      <FeaturesList />
-      <Sending />
-      <div className="discount">
-        {product.discount && (
-          <>
-            <span>
-              <RiDiscountPercentFill size={"20px"} color="#ec008c" />
-            </span>{" "}
-            {
-              getDiscountedPrice({
-                price: product.price,
-                discount: product.discount,
-              }).Percent
-            }
-            <span className="ps-1">درصد تخفیف</span>
-          </>
-        )}
-      </div>
-    </div>
-  );
+    );
 };
 export default memo(BodyDetail);

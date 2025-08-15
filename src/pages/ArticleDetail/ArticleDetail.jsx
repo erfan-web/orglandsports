@@ -89,7 +89,7 @@ function ArticleDetail() {
                 ),
               }}
             >
-              {article.content}
+              {article ? article.content : ""}
             </ReactMarkdown>
             <div style={{ padding: "60px 0px 90px" }}>
               <hr className="m-0" />

@@ -3,10 +3,8 @@ import axios from "axios";
 export const getProductById = createAsyncThunk(
   "product/getProductByIdStatus",
   async ({ productId }) => {
-    const res = await axios.get(
-      `http://localhost:8000/products?id=${productId}`
-    );
-    const product =  res.data[0]
+    const res = await axios.get(`/api/products?id=${productId}`);
+    const product = res.data;
     return product;
   }
 );

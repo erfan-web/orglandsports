@@ -3,10 +3,8 @@ import axios from "axios";
 export const getArticleById = createAsyncThunk(
   "article/getArticleByIdStatus",
   async ({ articleId }) => {
-    const res = await axios.get(
-      `http://localhost:8000/articles?id=${articleId}`
-    );
-    const article =  res.data[0]
+    const res = await axios.get(`/api/articles?id=${articleId}`);
+    const article = res.data;
     return article;
   }
 );
@@ -19,6 +17,7 @@ const articleSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder.addCase(getArticleById.fulfilled, (state, action) => {
+      console.log(action.payload);
       state.article = action.payload;
       state.status = "success";
     });

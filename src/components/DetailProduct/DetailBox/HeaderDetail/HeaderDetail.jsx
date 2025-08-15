@@ -4,14 +4,15 @@ import { memo } from "react";
 
 const HeaderDetail = () => {
   const { product } = useSelector((store) => store.productReducer);
-  return (
-    <div className="header">
-      <h5 className="productName">{product.name}</h5>
-      <div className="subTitle">
-        <span className="model">{product.model}</span>
-        <Rating />
+  // if (product)
+    return (
+      <div className="header">
+        <h5 className="productName">{product?.name}</h5>
+        <div className="subTitle">
+          <span className="model">{product?.model}</span>
+          <Rating />
+        </div>
       </div>
-    </div>
-  );
+    );
 };
-export default memo(HeaderDetail)
+export default memo(HeaderDetail);

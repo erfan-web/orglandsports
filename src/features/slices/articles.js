@@ -4,7 +4,7 @@ import axios from "axios";
 export const fetchArticles = createAsyncThunk(
   "articles/fetchArticlesStatus",
   async () => {
-    const res = await axios.get("http://localhost:8000/articles");
+    const res = await axios.get("/api/articles");
     const articles = res.data;
     return articles;
   }

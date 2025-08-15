@@ -5,7 +5,7 @@ export const getProductByBrand = createAsyncThunk(
   "productBrands/getProductByBrandStatus",
   async ({ brandName }) => {
     const res = await axios.get(
-      `http://localhost:8000/products?brand=${brandName}`
+      `/api/products?brand=${brandName}`
     );
     const data = res.data;
     return data;

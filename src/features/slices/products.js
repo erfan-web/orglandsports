@@ -3,10 +3,8 @@ import axios from "axios";
 export const fetchProducts = createAsyncThunk(
   "products/fetchProductsStatus",
   async () => {
-    const res = await axios.get(
-      `http://localhost:8000/products`
-    );
-    const products =  res.data
+    const res = await axios.get(`/api/products`);
+    const products = res.data;
     return products;
   }
 );
@@ -20,7 +18,7 @@ const productsSlice = createSlice({
   extraReducers: (builder) => {
     builder.addCase(fetchProducts.fulfilled, (state, action) => {
       state.products = action.payload;
-     
+
       state.status = "success";
     });
     builder.addCase(fetchProducts.pending, (state) => {

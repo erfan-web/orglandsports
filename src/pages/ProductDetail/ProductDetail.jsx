@@ -33,8 +33,7 @@ function ProductDetail() {
 
   const [messageStatus, setMessageStatus] = useState(false);
   const [selectedSize, setSelectedSize] = useState(null);
-
-  if (status == "success" && product)
+  // if (status == "success" && product)
     return (
       <>
         <MessageProvider

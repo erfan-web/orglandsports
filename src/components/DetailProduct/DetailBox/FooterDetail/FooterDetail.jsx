@@ -24,7 +24,7 @@ function FooterDetail() {
     const productToAdd = {
       id: product.id,
       name: product.name,
-      price: product.price,
+      price: product?.price,
       image: product.image,
       size: selectedSize,
       color: product.color[0],
@@ -42,18 +42,18 @@ function FooterDetail() {
   }, [dispatch, product, selectedSize, messageStatus, setMessageStatus]);
 
   let price;
-  if (product.price) {
-    if (product.discount) {
+  if (product?.price) {
+    if (product?.discount) {
       price = (
         <span>
-          {product.discount.discountedPrice.toLocaleString()}
+          {product?.discount?.discountedPrice.toLocaleString()}
           <sub>تومان</sub>
         </span>
       );
     } else {
       price = (
         <span>
-          {product.price.toLocaleString()}
+          {product?.price.toLocaleString()}
           <sub>تومان</sub>
         </span>
       );
@@ -71,47 +71,47 @@ function FooterDetail() {
       </span>
     );
   }
-
-  return (
-    <div className="footerDetail">
-      <div className="price">قیمت برای شما : {price}</div>
-      <Form className="mb-5 pb-5">
-        {product.sizes ? (
-          <>
-            <Form.Group className="form-group">
-              <div>
-                <Form.Label>رنگ محصول</Form.Label>
-                <Form.Select size="sm">
-                  <option value="">{product.color}</option>
-                </Form.Select>
-              </div>
+  if (product)
+    return (
+      <div className="footerDetail">
+        <div className="price">قیمت برای شما : {price}</div>
+        <Form className="mb-5 pb-5">
+          {product.sizes ? (
+            <>
+              <Form.Group className="form-group">
+                <div>
+                  <Form.Label>رنگ محصول</Form.Label>
+                  <Form.Select size="sm">
+                    <option value="">{product.color}</option>
+                  </Form.Select>
+                </div>
+              </Form.Group>
+              <Form.Group className="form-group ">
+                <div>
+                  <Form.Label>سایز محصول</Form.Label>
+                  <Form.Select size="sm" onChange={handleSizeChange}>
+                    {product.sizes.map((size, index) => (
+                      <option key={index} value={size}>
+                        {size}
+                      </option>
+                    ))}
+                  </Form.Select>{" "}
+                </div>
+                <BtnShop addToCartHandler={addToCartHandler}>
+                  افزودن به سبد خرید
+                </BtnShop>
+              </Form.Group>
+            </>
+          ) : (
+            <Form.Group className="form-group justify-content-end">
+              <BtnShop>اطلاع از قیمت</BtnShop>
             </Form.Group>
-            <Form.Group className="form-group ">
-              <div>
-                <Form.Label>سایز محصول</Form.Label>
-                <Form.Select size="sm" onChange={handleSizeChange}>
-                  {product.sizes.map((size, index) => (
-                    <option key={index} value={size}>
-                      {size}
-                    </option>
-                  ))}
-                </Form.Select>{" "}
-              </div>
-              <BtnShop addToCartHandler={addToCartHandler}>
-                افزودن به سبد خرید
-              </BtnShop>
-            </Form.Group>
-          </>
-        ) : (
-          <Form.Group className="form-group justify-content-end">
-            <BtnShop>اطلاع از قیمت</BtnShop>
-          </Form.Group>
-        )}
-      </Form>
-      <Link className="footer-end-link">
-        مقایسه محصول با سایر محصولات این گروه
-      </Link>
-    </div>
-  );
+          )}
+        </Form>
+        <Link className="footer-end-link">
+          مقایسه محصول با سایر محصولات این گروه
+        </Link>
+      </div>
+    );
 }
 export default memo(FooterDetail);
