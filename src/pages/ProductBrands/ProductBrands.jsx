@@ -28,7 +28,7 @@ function ProductBrands() {
           <Row className="p-0 px-xl-2 justify-content-center">
             <Col xs={12} xl={9} >
               <Row className="row-cols-2 row-cols-lg-3 row-cols-xl-4 p-0 row-product">
-                {productBrands.map((Product) => (
+                {productBrands?.map((Product) => (
                   <Col key={Product.id}>
                     <ProductCard {...Product} />
                   </Col>

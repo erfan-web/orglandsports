@@ -11,7 +11,6 @@ export default function handler(req, res) {
     const id = req.query.id;
     const category = req.query.category_id;
     const brand = req.query.brand;
-
     const products = [
       {
         id: "1",
@@ -1491,7 +1490,7 @@ export default function handler(req, res) {
       }
     } else if (brand) {
       const product = products.filter(
-        (p) => p.technical_details.brand == brand
+        (p) => p.brand == brand
       );
       if (product) {
         res.status(200).json(product);
