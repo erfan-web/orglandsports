@@ -24,7 +24,7 @@ The project includes product pages, an advanced product filtering system, shoppi
 
 [![Demo on Vercel](https://img.shields.io/badge/Vercel-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://orgland-sports.vercel.app)  
 
-**Note:** To properly load the images, you may need to use a VPN, because the image URLs point to external sources rather than local project folders.
+
 
 ---
 
