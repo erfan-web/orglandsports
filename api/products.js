@@ -28,12 +28,12 @@ export default function handler(req, res) {
         price: 8400000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/416313585.JPG",
+          "/images/416313585.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5511126302.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5511126303.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7593908654.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7593908655.JPG",
+          "/images/5511126302.JPG",
+          "/images/5511126303.JPG",
+          "/images/7593908654.JPG",
+          "/images/7593908655.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -76,13 +76,13 @@ export default function handler(req, res) {
           endDate: "2025-07-1",
         },
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/558855856.JPG",
+          "/images/558855856.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1045955451.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1045955452.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1363526783.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1363526784.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9704290195.JPG",
+          "/images/1045955451.JPG",
+          "/images/1045955452.JPG",
+          "/images/1363526783.JPG",
+          "/images/1363526784.JPG",
+          "/images/9704290195.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -117,13 +117,13 @@ export default function handler(req, res) {
         price: 8800000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/227864957.JPG",
+          "/images/227864957.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/580700801.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9610733502.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9610733503.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9610733504.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/509672895.JPG",
+          "/images/580700801.JPG",
+          "/images/9610733502.JPG",
+          "/images/9610733503.JPG",
+          "/images/9610733504.JPG",
+          "/images/509672895.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -160,13 +160,13 @@ export default function handler(req, res) {
         price: 6450000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/80696246.JPG",
+          "/images/80696246.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9188364871.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9188364872.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4194888723.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4194888724.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4194888725.JPG",
+          "/images/9188364871.JPG",
+          "/images/9188364872.JPG",
+          "/images/4194888723.JPG",
+          "/images/4194888724.JPG",
+          "/images/4194888725.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -210,13 +210,13 @@ export default function handler(req, res) {
           endDate: "2025-07-1",
         },
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/816236283.JPG",
+          "/images/816236283.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2352975991.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1773534762.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1773534763.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/903409504.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/903409505.JPG",
+          "/images/2352975991.JPG",
+          "/images/1773534762.JPG",
+          "/images/1773534763.JPG",
+          "/images/903409504.JPG",
+          "/images/903409505.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -251,13 +251,13 @@ export default function handler(req, res) {
         price: 7500000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/392563925.JPG",
+          "/images/392563925.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9596775651.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5562145912.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5562145913.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5562145914.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5562145915.JPG",
+          "/images/9596775651.JPG",
+          "/images/5562145912.JPG",
+          "/images/5562145913.JPG",
+          "/images/5562145914.JPG",
+          "/images/5562145915.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -291,13 +291,13 @@ export default function handler(req, res) {
         price: 8100000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/699826987.JPG",
+          "/images/699826987.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3311864442.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7217486031.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5562145913.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3311864443.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9298341575.JPG",
+          "/images/3311864442.JPG",
+          "/images/7217486031.JPG",
+          "/images/5562145913.JPG",
+          "/images/3311864443.JPG",
+          "/images/9298341575.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -334,13 +334,13 @@ export default function handler(req, res) {
         price: 8800000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/703201680.JPG",
+          "/images/703201680.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4493108901.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9378683802.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/8325775783.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/8325775784.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4341067055.JPG",
+          "/images/4493108901.JPG",
+          "/images/9378683802.JPG",
+          "/images/8325775783.JPG",
+          "/images/8325775784.JPG",
+          "/images/4341067055.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -376,13 +376,13 @@ export default function handler(req, res) {
         price: 6220000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/47649205.JPG",
+          "/images/47649205.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6898636181.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2864006442.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2864006443.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9726389244.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9726389245.JPG",
+          "/images/6898636181.JPG",
+          "/images/2864006442.JPG",
+          "/images/2864006443.JPG",
+          "/images/9726389244.JPG",
+          "/images/9726389245.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -422,11 +422,11 @@ export default function handler(req, res) {
           endDate: "2025-07-1",
         },
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/933359518.JPG",
+          "/images/933359518.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5601122341.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6521168612.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2839408743.JPG",
+          "/images/5601122341.JPG",
+          "/images/6521168612.JPG",
+          "/images/2839408743.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -462,13 +462,13 @@ export default function handler(req, res) {
         price: 6750000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/54679921.JPG",
+          "/images/54679921.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7582330761.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6683391392.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6683391393.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6683391394.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5701511285.JPG",
+          "/images/7582330761.JPG",
+          "/images/6683391392.JPG",
+          "/images/6683391393.JPG",
+          "/images/6683391394.JPG",
+          "/images/5701511285.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -504,13 +504,13 @@ export default function handler(req, res) {
         price: 6220000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/693897091.PNG",
+          "/images/693897091.PNG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3551044651.PNG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2307294642.PNG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2307294643.PNG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2307294644.PNG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5299002385.PNG",
+          "/images/3551044651.PNG",
+          "/images/2307294642.PNG",
+          "/images/2307294643.PNG",
+          "/images/2307294644.PNG",
+          "/images/5299002385.PNG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -549,15 +549,15 @@ export default function handler(req, res) {
           endDate: "2025-07-1",
         },
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/289582864.JPG",
+          "/images/289582864.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2594023751.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5286988252.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5286988253.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5286988254.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7373624215.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7373624216.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7373624217.JPG",
+          "/images/2594023751.JPG",
+          "/images/5286988252.JPG",
+          "/images/5286988253.JPG",
+          "/images/5286988254.JPG",
+          "/images/7373624215.JPG",
+          "/images/7373624216.JPG",
+          "/images/7373624217.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -592,15 +592,15 @@ export default function handler(req, res) {
         price: 7900000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/920415156.JPG",
+          "/images/920415156.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/8948062071.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/843856052.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/843856053.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1908676914.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1908676915.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1908676916.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/855768887.JPG",
+          "/images/8948062071.JPG",
+          "/images/843856052.JPG",
+          "/images/843856053.JPG",
+          "/images/1908676914.JPG",
+          "/images/1908676915.JPG",
+          "/images/1908676916.JPG",
+          "/images/855768887.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -636,16 +636,16 @@ export default function handler(req, res) {
         price: 7900000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/567728454.JPG",
+          "/images/567728454.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/325862123.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5261358031.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/325862122.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9426922734.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9426922735.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7473148536.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7473148537.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2404790868.JPG",
+          "/images/325862123.JPG",
+          "/images/5261358031.JPG",
+          "/images/325862122.JPG",
+          "/images/9426922734.JPG",
+          "/images/9426922735.JPG",
+          "/images/7473148536.JPG",
+          "/images/7473148537.JPG",
+          "/images/2404790868.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -681,13 +681,13 @@ export default function handler(req, res) {
         price: 7900000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/763717858.JPG",
+          "/images/763717858.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4087576461.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4087576462.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7096185483.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2114622164.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2114622165.JPG",
+          "/images/4087576461.JPG",
+          "/images/4087576462.JPG",
+          "/images/7096185483.JPG",
+          "/images/2114622164.JPG",
+          "/images/2114622165.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -721,13 +721,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/931712196.JPG",
+          "/images/931712196.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/656860422.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/656860421.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9334375253.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9334375254.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7721206095.JPG",
+          "/images/656860422.JPG",
+          "/images/656860421.JPG",
+          "/images/9334375253.JPG",
+          "/images/9334375254.JPG",
+          "/images/7721206095.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -761,14 +761,14 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/33501159.JPG",
+          "/images/33501159.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1216697672.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1216697671.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1351486233.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1351486234.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1351486235.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6129159896.JPG",
+          "/images/1216697672.JPG",
+          "/images/1216697671.JPG",
+          "/images/1351486233.JPG",
+          "/images/1351486234.JPG",
+          "/images/1351486235.JPG",
+          "/images/6129159896.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -802,13 +802,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/813019091.JPG",
+          "/images/813019091.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3148539641.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3910763642.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3910763643.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4988632184.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4988632185.JPG",
+          "/images/3148539641.JPG",
+          "/images/3910763642.JPG",
+          "/images/3910763643.JPG",
+          "/images/4988632184.JPG",
+          "/images/4988632185.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -841,13 +841,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/289889913.JPG",
+          "/images/289889913.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6481256921.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6481256922.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/361918033.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/361918034.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/361918035.JPG",
+          "/images/6481256921.JPG",
+          "/images/6481256922.JPG",
+          "/images/361918033.JPG",
+          "/images/361918034.JPG",
+          "/images/361918035.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -882,13 +882,13 @@ export default function handler(req, res) {
         price: 7850000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/579516561.JPG",
+          "/images/579516561.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2093160502.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5329054031.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2093160503.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2093160504.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6130078175.JPG",
+          "/images/2093160502.JPG",
+          "/images/5329054031.JPG",
+          "/images/2093160503.JPG",
+          "/images/2093160504.JPG",
+          "/images/6130078175.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -925,16 +925,16 @@ export default function handler(req, res) {
         price: 7850000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/453328282.JPG",
+          "/images/453328282.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/453328282.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/453328282.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6833354522.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6833354523.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4023646714.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4013660685.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4013660686.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6985396377.JPG",
+          "/images/453328282.JPG",
+          "/images/453328282.JPG",
+          "/images/6833354522.JPG",
+          "/images/6833354523.JPG",
+          "/images/4023646714.JPG",
+          "/images/4013660685.JPG",
+          "/images/4013660686.JPG",
+          "/images/6985396377.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -971,13 +971,13 @@ export default function handler(req, res) {
         price: 3850000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/125892589.JPG",
+          "/images/125892589.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2987615571.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5153338662.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5153338663.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5153338664.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/8498699125.JPG",
+          "/images/2987615571.JPG",
+          "/images/5153338662.JPG",
+          "/images/5153338663.JPG",
+          "/images/5153338664.JPG",
+          "/images/8498699125.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1012,16 +1012,16 @@ export default function handler(req, res) {
         price: 7450000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/108417251.JPG",
+          "/images/108417251.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/8268068191.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1170702792.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3182457233.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3182457234.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6631513325.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7671373676.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4243072477.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6329708438.JPG",
+          "/images/8268068191.JPG",
+          "/images/1170702792.JPG",
+          "/images/3182457233.JPG",
+          "/images/3182457234.JPG",
+          "/images/6631513325.JPG",
+          "/images/7671373676.JPG",
+          "/images/4243072477.JPG",
+          "/images/6329708438.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1055,12 +1055,12 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/49471242.JPG",
+          "/images/49471242.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/221281692.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/1153240791.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/221281693.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/302295634.JPG",
+          "/images/221281692.JPG",
+          "/images/1153240791.JPG",
+          "/images/221281693.JPG",
+          "/images/302295634.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1093,11 +1093,11 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/781346878.JPG",
+          "/images/781346878.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/781346878.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5923367281.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7474702602.JPG",
+          "/images/781346878.JPG",
+          "/images/5923367281.JPG",
+          "/images/7474702602.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1128,13 +1128,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/825234282.JPG",
+          "/images/825234282.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6323617072.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9353333001.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6323617073.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9016581574.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9016581575.JPG",
+          "/images/6323617072.JPG",
+          "/images/9353333001.JPG",
+          "/images/6323617073.JPG",
+          "/images/9016581574.JPG",
+          "/images/9016581575.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1166,13 +1166,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/44128766.JPG",
+          "/images/44128766.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4139078032.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/104448291.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9070720343.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9070720344.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9359477565.JPG",
+          "/images/4139078032.JPG",
+          "/images/104448291.JPG",
+          "/images/9070720343.JPG",
+          "/images/9070720344.JPG",
+          "/images/9359477565.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1204,12 +1204,12 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/134073016.JPG",
+          "/images/134073016.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/6897793161.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4495512682.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4495512683.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/33483564.JPG",
+          "/images/6897793161.JPG",
+          "/images/4495512682.JPG",
+          "/images/4495512683.JPG",
+          "/images/33483564.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1241,13 +1241,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/876582421.JPG",
+          "/images/876582421.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3512669021.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3377880462.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/3377880463.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2188257074.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/2188257075.JPG",
+          "/images/3512669021.JPG",
+          "/images/3377880462.JPG",
+          "/images/3377880463.JPG",
+          "/images/2188257074.JPG",
+          "/images/2188257075.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1281,13 +1281,13 @@ export default function handler(req, res) {
         price: 5850000,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/43350769.JPG",
+          "/images/43350769.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5906143101.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7274695652.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7274695653.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/7274695654.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9041833475.JPG",
+          "/images/5906143101.JPG",
+          "/images/7274695652.JPG",
+          "/images/7274695653.JPG",
+          "/images/7274695654.JPG",
+          "/images/9041833475.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1319,13 +1319,13 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/954299655.JPG",
+          "/images/954299655.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/9689345941.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5015367922.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5015367923.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/5015367924.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4468946415.JPG",
+          "/images/9689345941.JPG",
+          "/images/5015367922.JPG",
+          "/images/5015367923.JPG",
+          "/images/5015367924.JPG",
+          "/images/4468946415.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1359,9 +1359,9 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/745135644.JPG",
+          "/images/745135644.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4983263021.JPG",
+          "/images/4983263021.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1389,9 +1389,9 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/896569294.JPG",
+          "/images/896569294.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/8460123861.JPG",
+          "/images/8460123861.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1419,10 +1419,10 @@ export default function handler(req, res) {
         price: null,
         discount: null,
         image:
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/81204312.JPG",
+          "/images/81204312.JPG",
         images: [
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4738771621.JPG",
-          "https://www.orglandsports.com/WebsiteImages/ProductImages/4738771622.JPG",
+          "/images/4738771621.JPG",
+          "/images/4738771622.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",
@@ -1452,13 +1452,13 @@ export default function handler(req, res) {
         color: ["سفید"],
         sizes: [4],
         image:
-          "https://www.orglandsportt.com/WebsiteImages/ProductImages/893203138.JPG",
+          "/images/893203138.JPG",
         images: [
-          "https://www.orglandsportt.com/WebsiteImages/ProductImages/9141640881.JPG",
-          "https://www.orglandsportt.com/WebsiteImages/ProductImages/73600002.JPG",
-          "https://www.orglandsportt.com/WebsiteImages/ProductImages/8231580643.JPG",
-          "https://www.orglandsportt.com/WebsiteImages/ProductImages/5783232754.JPG",
-          "https://www.orglandsportt.com/WebsiteImages/ProductImages/5783232755.JPG",
+          "/images/9141640881.JPG",
+          "/images/73600002.JPG",
+          "/images/8231580643.JPG",
+          "/images/5783232754.JPG",
+          "/images/5783232755.JPG",
         ],
         key_features: [
           "دارای ضمانت اصالت کالا",

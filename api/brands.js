@@ -12,55 +12,55 @@ export default function handler(req, res) {
       {
         id: "adidas",
         name: "آدیداس",
-        image: "https://www.orglandsports.com/WebsiteImages/Brands/8435978.JPG",
+        image: "/images/8435978.JPG",
       },
       {
         id: "nike",
         name: "نایک",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/166194024.JPG",
+          "/images/166194024.JPG",
       },
       {
         id: "majid",
         name: "مجید",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/672810107.JPG",
+          "/images/672810107.JPG",
       },
       {
         id: "joma",
         name: "جوما",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/867910152.JPG",
+          "/images/867910152.JPG",
       },
       {
         id: "mizuno",
         name: "میزانو",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/93819344.JPG",
+          "/images/93819344.JPG",
       },
       {
         id: "uhlsport",
         name: "الشپرت",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/956280140.JPG",
+          "/images/956280140.JPG",
       },
       {
         id: "newbalance",
         name: "نیوبالانس",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/697940624.JPG",
+          "/images/697940624.JPG",
       },
       {
         id: "local",
         name: "داخلی",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/132725186.PNG",
+          "/images/132725186.PNG",
       },
       {
         id: "puma",
         name: "پوما",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/637155438.JPG",
+          "/images/637155438.JPG",
       },
       {
         id: "asics",
@@ -72,19 +72,19 @@ export default function handler(req, res) {
         id: "umbro",
         name: "آمبرو",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/395136999.JPG",
+          "/images/395136999.JPG",
       },
       {
         id: "fox",
         name: "فوکس",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/262608646.JPG",
+          "/images/262608646.JPG",
       },
       {
         id: "kelme",
         name: "کلمه",
         image:
-          "https://www.orglandsports.com/WebsiteImages/Brands/945468594.JPG",
+          "/images/945468594.JPG",
       },
     ];
 
