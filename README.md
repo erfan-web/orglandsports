@@ -1,32 +1,38 @@
-#  Online Store - React Ecommerce Project
+# Online Store – React Ecommerce Project
 
-یک فروشگاه اینترنتی ساخته‌شده با دیتابیس فیک React، Redux Toolkit و Sass. این پروژه شامل صفحات محصول، فیلتر پیشرفته، سبد خرید، اسلایدرهای هماهنگ و کاملاً Responsive است.
+This is a personal project: an online futsal shoe store inspired by *Orgland Sports*. I created it not only to practice **React** and **Redux**, but also because of my personal interest in futsal and to focus on **front-end development**.
 
----
-
-##  ویژگی‌ها
-
-- استفاده از **React 18** + **Redux Toolkit**
-- استایل‌دهی با **Sass**
-- ریسپانسیو کامل برای موبایل و دسکتاپ
-- سیستم مدیریت سبد خرید
-- اسلایدر تصاویر محصول با هماهنگی (Main + Thumbs)
-- شافل کردن محصولات برای نمایش در اسلایدر ها و ...
-- استفاده از React Router برای مسیرهای داینامیک
-- ماژولار و سعی در جلوگیری کد های تکراری (کدنویسی تمیز)
+The project includes product pages, an advanced product filtering system, shopping cart, synchronized product sliders, and a fully responsive design for desktop and mobile.
 
 ---
 
-##  دمو(Demo)
+## Features
 
-[![Demo on Vercel](https://img.shields.io/badge/Vercel-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://orgland-sports.vercel.app)
+- Built with **React** + **Redux Toolkit**  
+- Styling with **Sass**  
+- Fully responsive for mobile and desktop  
+- Shopping cart management system  
+- Synchronized product sliders (Main + Thumbs)  
+- Shuffling products for sliders  
+- Advanced product filtering (currently implemented with AI, planned to be rewritten with real API in the future)  
+- Routing with **React Router**  
+- Modular and clean code structure to avoid duplication  
 
+---
 
-##  نصب و اجرا
+## Demo
+
+[![Demo on Vercel](https://img.shields.io/badge/Vercel-Live%20Demo-blue?style=for-the-badge&logo=vercel)](https://orgland-sports.vercel.app)  
+
+**Note:** To properly load the images, you may need to use a VPN, because the image URLs point to external sources rather than local project folders.
+
+---
+
+## Installation & Running
 
 ```bash
-
- 1- نصب پکیج‌ها
+# Install dependencies
 npm install
- 2- اجرای پروژ 
+
+# Run the project
 npm run dev
