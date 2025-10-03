@@ -31,6 +31,10 @@ function BlogNav() {
     return () => mediaQuery.removeEventListener("change", handleMediaChange);
   }, [isOffcanvasOpen]);
 
+  useEffect(() => {
+    setIsOffcanvasOpen(false);
+  }, [location]);
+
   const sortBox = useMemo(() => {
     return location.pathname === "/" && isExpand ? <SortBox /> : null;
   }, [location.pathname, isExpand]);
