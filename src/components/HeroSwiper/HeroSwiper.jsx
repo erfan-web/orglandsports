@@ -22,7 +22,7 @@ const HeroSwiper=()=>{
         <SwiperSlide>
           <Link to={`category/2/کفش-فوتسال`}>
             <img
-              src="https://www.orglandsports.com/WebsiteImages/SliderMpImages/705751903.JPG"
+              src="/images/SliderHeader/705751903.JPG"
               className="w-100"
             />
           </Link>
@@ -30,7 +30,7 @@ const HeroSwiper=()=>{
         <SwiperSlide>
           <Link to={`category/3/کفش-پیاده-روی`}>
             <img
-              src="https://www.orglandsports.com/WebsiteImages/SliderMpImages/468450925.JPG"
+              src="/images/SliderHeader/468450925.JPG"
               alt=""
               className="w-100"
             />

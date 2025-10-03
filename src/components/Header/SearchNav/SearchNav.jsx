@@ -18,7 +18,7 @@ function SearchNav() {
             <Col xs={2} lg={2}>
               <img
                 src={
-                  "https://www.orglandsports.com/Content/Newcss/img/logo.png"
+                  "/images/logo.png"
                 }
                 alt=""
                 className="logoImg"

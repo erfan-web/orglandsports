@@ -43,7 +43,7 @@ function Home() {
             <div className="p-3 border  border-light-subtle">
               <Link to={`/category/6/جوراب`}>
                 <img
-                  src="https://www.orglandsports.com/WebsiteImages/ServiceGroupImages/792208336.JPG"
+                  src="/images/ServiceGroup/792208336.jfif"
                   alt=""
                   className="w-100"
                 />
@@ -54,7 +54,7 @@ function Home() {
             <div className="p-3 border  border-light-subtle">
               <Link to={`/category/3/کفش-پیاده-روی`}>
                 <img
-                  src="https://www.orglandsports.com/WebsiteImages/ServiceGroupImages/760320642.JPG"
+                  src="/images/ServiceGroup/760320642.jfif"
                   alt=""
                   className="w-100"
                 />
@@ -72,7 +72,7 @@ function Home() {
             <div className="p-3 border border-light-subtle">
               <Link to={`/category/5/کفش-پیاده-روی`}>
                 <img
-                  src="https://www.orglandsports.com/WebsiteImages/ServiceGroupImages/846827143.JPG"
+                  src="/images/ServiceGroup/846827143.jfif"
                   alt=""
                   className="w-100"
                 />
@@ -83,7 +83,7 @@ function Home() {
             <div className="p-3 border border-light-subtle">
               <Link to={`/category/2/کفش-فوتسال`}>
                 <img
-                  src="https://www.orglandsports.com/WebsiteImages/ServiceGroupImages/848929074.JPG"
+                  src="/images/ServiceGroup/848929074.jfif"
                   alt=""
                   className="w-100"
                 />

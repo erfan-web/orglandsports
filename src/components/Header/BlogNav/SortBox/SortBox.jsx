@@ -14,7 +14,7 @@ function SortBox() {
         <ul className="sort-list">
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-1.png"}
+              src={"/images/progroup-1.png"}
               alt=""
             />
             <Link to={`/category/1/کفش-ورزشی`}>
@@ -23,7 +23,7 @@ function SortBox() {
           </li>
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-2.png"}
+              src={"/images/progroup-2.png"}
               alt=""
             />
             <Link to={`/category/5/پوشاک-ورزشی`}>
@@ -32,7 +32,7 @@ function SortBox() {
           </li>
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-3.png"}
+              src={"/images/progroup-3.png"}
               alt=""
             />
             <Link to={`/category/8/لوازم-ورزشی`}>
@@ -41,28 +41,28 @@ function SortBox() {
           </li>
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-4.png"}
+              src={"/images/progroup-4.png"}
               alt=""
             />
             <span>کیف و کوله</span>
           </li>
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-5.png"}
+              src={"/images/progroup-5.png"}
               alt=""
             />
             <span>توپ ورزشی</span>
           </li>
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-6.png"}
+              src={"/images/progroup-6.png"}
               alt=""
             />
             <span>ساک ورزشی</span>
           </li>
           <li className="sort-item">
             <img
-              src={"https://www.orglandsports.com/images/progroup-7.png"}
+              src={"/images/progroup-7.png"}
               alt=""
             />
             <span>لوازم کوه نوردی</span>
